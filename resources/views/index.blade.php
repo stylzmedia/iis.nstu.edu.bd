@@ -10,21 +10,24 @@
                     <!-- single slider -->
                     <div class="relative">
                         <img class="custom-slider-h-400" src="{{ asset('frontend/images/slider-1.jpg') }}" alt="">
-                        <div class="absolute bottom-0 w-full left-0 bg-black bg-opacity-50 p-10">
-                            <p class=" text-white text-lg">Our Faculty tech a wide portfolio microbiology courses at the undergraduate and graduate levels.</p>
+                        <div class="absolute bottom-0 md:w-1/2 h-full top-0 left-0 bg-black bg-opacity-50 p-10">
+                            <h4 class=" md:text-3xl text-xl font-bold text-white border-b border-gray-200 pb-2 mb-5">Department of Information Sciences and Library Management</h4>
+                            <p class="text-white text-lg">Our Faculty tech a wide portfolio microbiology courses at the undergraduate and graduate levels.</p>
                         </div>
                     </div>
                     <!-- single slider -->
                     <div class="relative">
                         <img class="custom-slider-h-400" src="{{ asset('frontend/images/slider-2.jpg') }}" alt="">
-                        <div class="absolute bottom-0 w-full left-0 bg-black bg-opacity-50 p-10">
-                            <p class=" text-white text-lg">Our Faculty tech a wide portfolio microbiology courses at the undergraduate and graduate levels.</p>
+                        <div class="absolute bottom-0 md:w-1/2 h-full top-0 left-0 bg-black bg-opacity-50 p-10">
+                            <h4 class=" md:text-3xl text-xl font-bold text-white border-b border-gray-200 pb-2 mb-5">Department of Information Sciences and Library Management</h4>
+                            <p class="text-white text-lg">Our Faculty tech a wide portfolio microbiology courses at the undergraduate and graduate levels.</p>
                         </div>
                     </div>
                     <!-- single slider -->
                     <div class="relative">
                         <img class="custom-slider-h-400" src="{{ asset('frontend/images/slider-3.jpg') }}" alt="">
-                        <div class="absolute bottom-0 w-full left-0 bg-black bg-opacity-50 p-10">
+                        <div class="absolute bottom-0 md:w-1/2 h-full top-0 left-0 bg-black bg-opacity-50 p-10">
+                            <h4 class="md:text-3xl text-xl font-bold text-white border-b border-gray-200 pb-2 mb-5">Department of Information Sciences and Library Management</h4>
                             <p class=" text-white text-lg">Our Faculty tech a wide portfolio microbiology courses at the undergraduate and graduate levels.</p>
                         </div>
                     </div>
@@ -42,7 +45,7 @@
                 <h2 class="primary-color font-bold uppercase text-2xl relative">STUDY</h2>
             </div>
             {{-- section content --}}
-            <div class=" grid grid-cols-3 gap-5">
+            <div class=" lg:grid lg:grid-cols-3 lg:gap-5 lg:space-y-0 space-y-10">
                 {{-- single stydy content --}}
                 <div class="bg-white rounded-md shadow-lg">
                     <div class="">
@@ -118,14 +121,14 @@
                 <h2 class="primary-color font-bold uppercase text-2xl relative">RESEARCH</h2>
             </div>
             {{-- research content section start --}}
-            <div class="grid grid-cols-3 gap-5">
+            <div class="lg:grid lg:grid-cols-3 lg:gap-5 lg:space-y-0 space-y-10">
                 {{-- single content section --}}
                 <div class="col-span-3">
-                    <div class="flex">
-                        <div class=" w-2/3">
+                    <div class="lg:flex">
+                        <div class="lg:w-2/3">
                             <img class="w-full h-auto" src="{{ asset('frontend/images/research-top.jpg') }}" alt="">
                         </div>
-                        <div class="w-2/6 bg-blue-900 p-10 text-white">
+                        <div class="lg:w-2/6 bg-blue-900 p-10 text-white">
                             <h4 class=" font-bold text-xl mb-2">The Head Up Collar</h4>
                             <p class=" text-base font-light mb-5">Explore how our researchers are transforming the lives of their motor neurone disease patients by giving them some independence back.</p>
                             <a class=" font-bold text-lg underline" href="">A patient-centred approach to developing a new collar</a>
@@ -211,16 +214,16 @@
             </div>
 
             {{-- news content section start --}}
-            <div class="grid grid-cols-3 gap-5">
+            <div class="lg:grid lg:grid-cols-3 lg:gap-5 lg:space-y-0 space-y-10">
                 {{-- single content section --}}
                 <div class="col-span-3">
-                    <div class="flex">
-                        <div class="w-2/6 bg-blue-900 p-10 text-white">
+                    <div class="lg:flex">
+                        <div class="lg:w-2/6 bg-blue-900 p-10 text-white">
                             <span class=" bg-yellow-500 text-black font-bold text-base py-1 px-3 rounded-md">21 Jun 2022</span>
                             <h4 class=" font-bold text-xl mb-2 mt-5">Sheffield scientists benefit from £4.25 million to kick start UK-wide research effort to end MND</h4>
                             <p class=" text-base font-light mb-5">Researchers from the University of Sheffield’s Institute for Translational Neuroscience (SITraN) have been awarded part of a new £4.25 million grant that seeks to discover meaningful MND treatments within years, not decades.</p>
                         </div>
-                        <div class=" w-2/3">
+                        <div class="lg:w-2/3">
                             <img class="w-full h-auto" src="{{ asset('frontend/images/news-top.jpg') }}" alt="">
                         </div>
                     </div>
@@ -308,14 +311,14 @@
             </div>
 
             {{-- event content section start --}}
-            <div class="grid grid-cols-3 gap-5">
+            <div class="lg:grid lg:grid-cols-3 lg:gap-5 lg:space-y-0 space-y-10">
                 {{-- single content section --}}
                 <div class="col-span-3">
-                    <div class="flex">
-                        <div class=" w-2/3">
+                    <div class="lg:flex">
+                        <div class="lg:w-2/3">
                             <img class="w-full h-auto" src="{{ asset('frontend/images/event-top.jpg') }}" alt="">
                         </div>
-                        <div class="w-2/6 bg-blue-900 p-10 text-white">
+                        <div class="lg:w-2/6 bg-blue-900 p-10 text-white">
                             <h4 class=" font-bold text-xl mb-2">The Head Up Collar</h4>
                             <p class=" text-base font-light mb-5">Explore how our researchers are transforming the lives of their motor neurone disease patients by giving them some independence back.</p>
                             <a class=" font-bold text-lg underline" href="">A patient-centred approach to developing a new collar</a>
@@ -400,7 +403,7 @@
                 <h2 class="primary-color font-bold uppercase text-2xl relative">COLLABORATE</h2>
             </div>
             {{-- section content --}}
-            <div class=" grid grid-cols-3 gap-5">
+            <div class="lg:grid lg:grid-cols-3 lg:gap-5 lg:space-y-0 space-y-10">
                 {{-- single collaborate content --}}
                 <div class="bg-white rounded-md shadow-lg">
                     <div class="">
@@ -476,15 +479,15 @@
                 <h2 class="primary-color font-bold uppercase text-2xl relative">Quick Links</h2>
             </div>
             {{-- section content start --}}
-            <div class="grid grid-cols-2">
+            <div class="lg:grid lg:grid-cols-2">
                 {{-- single content --}}
-                <div class="flex">
+                <div class="lg:flex">
                     {{-- link content --}}
-                    <div class="bg-quick-link-1 link-content p-5 w-1/2 text-white">
+                    <div class="bg-quick-link-1 link-content p-5 lg:w-1/2 text-white">
                         <h4 class=" text-3xl font-semibold mb-5">Future Students</h4>
                         <ul>
                             <li class="font-semibold uppercase text-xs py-3 border-b border-b-gray-200">
-                                <a class="hover:underline" href="">WHY IITS?</a>
+                                <a class="hover:underline" href="">WHY IIS?</a>
                             </li>
                             <li class="font-semibold uppercase text-xs py-3 border-b border-b-gray-200">
                                 <a class="hover:underline" href="">GRADUATE ADMISSIONS</a>
@@ -498,15 +501,15 @@
                         </ul>
                     </div>
                     {{-- image --}}
-                    <div class="link-image w-1/2">
+                    <div class="link-image lg:w-1/2">
                         <img src="{{ asset('frontend/images/quicklink-1.jpg') }}" alt="">
                     </div>
                 </div>
 
                 {{-- single content --}}
-                <div class="flex">
+                <div class="lg:flex">
                     {{-- link content --}}
-                    <div class="bg-quick-link-2 link-content p-5 w-1/2 text-white">
+                    <div class="bg-quick-link-2 link-content p-5 lg:w-1/2 text-white">
                         <h4 class=" text-3xl font-semibold mb-5">Current Students</h4>
                         <ul>
                             <li class="font-semibold uppercase text-xs py-3 border-b border-b-gray-200">
@@ -524,19 +527,19 @@
                         </ul>
                     </div>
                     {{-- image --}}
-                    <div class="link-image w-1/2">
+                    <div class="link-image lg:w-1/2">
                         <img src="{{ asset('frontend/images/quicklink-2.jpg') }}" alt="">
                     </div>
                 </div>
 
                 {{-- single content --}}
-                <div class="flex">
+                <div class="lg:flex">
                     {{-- image --}}
-                    <div class="link-image w-1/2">
+                    <div class="link-image lg:w-1/2">
                         <img src="{{ asset('frontend/images/quicklink-3.jpg') }}" alt="">
                     </div>
                     {{-- link content --}}
-                    <div class="bg-quick-link-3 link-content p-5 w-1/2 text-white">
+                    <div class="bg-quick-link-3 link-content p-5 lg:w-1/2 text-white">
                         <h4 class=" text-3xl font-semibold mb-5">Faculty & Staff</h4>
                         <ul>
                             <li class="font-semibold uppercase text-xs py-3 border-b border-b-gray-200">
@@ -556,13 +559,13 @@
                 </div>
 
                 {{-- single content --}}
-                <div class="flex">
+                <div class="lg:flex">
                     {{-- image --}}
-                    <div class="link-image w-1/2">
+                    <div class="link-image lg:w-1/2">
                         <img src="{{ asset('frontend/images/quicklink-4.jpg') }}" alt="">
                     </div>
                     {{-- link content --}}
-                    <div class="bg-quick-link-4 link-content p-5 w-1/2 text-white">
+                    <div class="bg-quick-link-4 link-content p-5 lg:w-1/2 text-white">
                         <h4 class=" text-3xl font-semibold mb-5">Alumni</h4>
                         <ul>
                             <li class="font-semibold uppercase text-xs py-3 border-b border-b-gray-200">
@@ -592,12 +595,12 @@
         <div class="container">
             {{-- search content start --}}
             <div class="search-bg py-20" style="background-image: url('{{ asset('frontend/images/search-bg.jpg') }}')">
-                <div class="px-20 text-white">
+                <div class="lg:px-20 md:px-10 px-2 text-white">
                     <div>
                         <h4 class=" font-bold text-lg uppercase pb-10">NEED HELP FINDING SOMETHING?</h4>
                     </div>
-                    <div class="flex space-x-5">
-                        <h2 class=" text-4xl pb-14">I'm looking for information about</h2>
+                    <div class="lg:flex lg:space-x-5">
+                        <h2 class=" text-4xl lg:pb-14 lg:pt-0 pt-5 pb-2">I'm looking for information about</h2>
                         <div class="">
                             <select name="" id="" class=" text-2xl bg-gray-50 border border-gray-300 text-gray-900 rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                                 <option value="">topic</option>
@@ -613,8 +616,8 @@
                             </select>
                         </div>
                     </div>
-                    <div class="flex space-x-5">
-                        <h2 class="text-4xl pb-14">with keywords</h2>
+                    <div class="lg:flex lg:space-x-5">
+                        <h2 class="text-4xl lg:pb-14 lg:pt-0 pt-5 pb-2">with keywords</h2>
                        <div>
                         <input class="py-3 px-5 rounded text-gray-600" type="search" name="" id="" placeholder="Search...">
                         <button class=" py-3 px-10 rounded text-lg font-semibold primary-bg text-white ml-5" type="submit">Search</button>

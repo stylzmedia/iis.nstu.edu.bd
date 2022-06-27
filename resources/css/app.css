@@ -60,7 +60,7 @@ body{
     text-align: center;
     bottom: 0;
     margin-top: -32.5px;
-    left: 50%;
+    left: 25%;
   }
 
   .slider-area ul.slick-dots button {
@@ -88,6 +88,32 @@ body{
 
   .slider-area ul.slick-dots li.slick-active button {
     background-color: #0066b3;
+  }
+  /* Mega menu */
+  .mega-menu {
+    display: block;
+    left: 0;
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    z-index: 999;
+    opacity: 0;
+  }
+  /* #hoverable Class Styles */
+  .hoverable {
+    position: static;
+  }
+
+  .hoverable > a:after {
+    content: "\25BC";
+    font-size: 10px;
+    padding-left: 6px;
+    position: relative;
+    top: -1px;
+  }
+
+  .hoverable:hover .mega-menu {
+    opacity: 1;
   }
   .custom-h-600{
     height: 600px;
@@ -148,6 +174,36 @@ body{
     .education-tab {
       width: 700px;
       overflow-x: auto;
+    }
+    .section-title h2::before {
+        width: 100%;
+        left: 0;
+        top: 35px;
+      }
+    .research-section .section-title h2::before {
+        left: 0;
+        width: 100%;
+    }
+    .event-section .section-title h2::before {
+        left: 0;
+        width: 100%;
+    }
+    .collaborate-section .section-title h2::before {
+        left: 0;
+        width: 100%;
+    }
+    .quick-link-section .section-title h2::before {
+        left: 0;
+        width: 100%;
+    }
+    .link-image img {
+        width: 100%;
+    }
+    .bg-quick-link-3 {
+        margin-top: 0;
+    }
+    .bg-quick-link-4 {
+        margin-top: 0;
     }
   }
   /* Tab Screen */

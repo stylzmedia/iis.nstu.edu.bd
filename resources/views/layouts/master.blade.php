@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>NSTU-IITS</title>
+        <title>NSTU-IIS</title>
 
         <!-- Fonts -->
         {{-- <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet"> --}}
@@ -29,7 +29,7 @@
                                 </div>
                                 <div class="mt-10 md:block hidden">
                                     <h4 class=" text-xl primary-color font-bold">Noakhali Science and Technology University</h4>
-                                    <h2 class=" text-2xl logo-red-color font-bold">Department of IIST</h2>
+                                    <h2 class=" text-sm logo-red-color font-bold">Department of Information Sciences and Library Management</h2>
                                 </div>
                             </div>
                             <div class="lg:flex hidden items-center">
@@ -64,8 +64,100 @@
                             <li>
                                 <a class="px-5 text-lg" href="/about-us">About Us</a>
                             </li>
-                            <li>
+                            <li class="hoverable">
                                 <a class="px-5 text-lg" href="/service">Services </a>
+                                {{-- mega menu --}}
+                                <div class="p-6 mega-menu mb-16 sm:mb-0 shadow-xl bg-white">
+                                    <div class="container mx-auto w-full flex flex-wrap justify-between">
+                                      <ul class="px-4 w-full sm:w-1/2 lg:w-1/4 border-gray-100 border-b sm:border-r lg:border-b-0 pb-6 pt-6 lg:pt-3 text-gray-700">
+                                        <div class="flex items-center">
+                                          <h3 class="font-bold text-xl text-gray-700 text-bold mb-2">Academic Programs</h3>
+                                        </div>
+                                        <li class="py-2 text-sm font-normal text-gray-400">
+                                            <a href="">Colleges & Schools</a>
+                                        </li>
+                                        <li class="py-2 text-sm font-normal text-gray-400">
+                                            <a href="">Programs of Study</a>
+                                        </li>
+                                        <li class="py-2 text-sm font-normal text-gray-400">
+                                            <a href="">Honors Programs</a>
+                                        </li>
+                                        <li class="py-2 text-sm font-normal text-gray-400">
+                                            <a href="">Illinois Online</a>
+                                        </li>
+
+                                      </ul>
+                                      <ul class="px-4 w-full sm:w-1/2 lg:w-1/4 border-gray-100 border-b sm:border-r-0 lg:border-r lg:border-b-0 pb-6 pt-6 lg:pt-3 text-gray-700">
+                                          <div class="flex items-center">
+                                            <h3 class="font-bold text-xl text-gray-700 text-bold mb-2">Classes & Registration</h3>
+                                          </div>
+                                          <li class="py-2 text-sm font-normal text-gray-400">
+                                              <a href="">Course Explorer</a>
+                                          </li>
+                                          <li class="py-2 text-sm font-normal text-gray-400">
+                                              <a href="">Register for Class</a>
+                                          </li>
+                                          <li class="py-2 text-sm font-normal text-gray-400">
+                                              <a href="">Academic Calendar</a>
+                                          </li>
+                                          <li class="py-2 text-sm font-normal text-gray-400">
+                                              <a href="">Transcripts</a>
+                                          </li>
+                                      </ul>
+                                      <ul class="px-4 w-full sm:w-1/2 lg:w-1/4 border-gray-100 border-b sm:border-b-0 sm:border-r md:border-b-0 pb-6 pt-6 lg:pt-3 text-gray-700">
+                                        <div class="flex items-center">
+                                            <h3 class="font-bold text-xl text-gray-700 text-bold mb-2">Tatooine</h3>
+                                        </div>
+                                        <li class="py-2 text-sm font-normal text-gray-400">
+                                            <a href="">Colleges & Schools</a>
+                                        </li>
+                                        <li class="py-2 text-sm font-normal text-gray-400">
+                                            <a href="">Programs of Study</a>
+                                        </li>
+                                        <li class="py-2 text-sm font-normal text-gray-400">
+                                            <a href="">Honors Programs</a>
+                                        </li>
+                                        <li class="py-2 text-sm font-normal text-gray-400">
+                                            <a href="">Illinois Online</a>
+                                        </li>
+                                      </ul>
+                                      <ul class="px-4 w-full sm:w-1/2 lg:w-1/4 border-gray-100 pb-6 pt-6 lg:pt-3 text-gray-700">
+                                          <div class="flex items-center">
+                                            <h3 class="font-bold text-xl text-gray-700 text-bold mb-2">Classes & Registration</h3>
+                                          </div>
+                                          <li class="py-2 text-sm font-normal text-gray-400">
+                                              <a href="">Course Explorer</a>
+                                          </li>
+                                          <li class="py-2 text-sm font-normal text-gray-400">
+                                              <a href="">Register for Class</a>
+                                          </li>
+                                          <li class="py-2 text-sm font-normal text-gray-400">
+                                              <a href="">Academic Calendar</a>
+                                          </li>
+                                          <li class="py-2 text-sm font-normal text-gray-400">
+                                              <a href="">Transcripts</a>
+                                          </li>
+                                      </ul>
+                                    </div>
+                                    <div class="related-link py-5">
+                                        <div class="container">
+                                            <div class="releated-link-menu">
+                                                <ul class="flex space-x-5">
+                                                    <h4 class=" text-gray-400 font-semibold text-lg">Related Link</h4>
+                                                    <li>
+                                                        <a class=" text-gray-700 bg-gray-100 px-5 py-3 rounded-lg" href="">RESEARCH CALENDAR</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class=" text-gray-700 bg-gray-100 px-5 py-3 rounded-lg" href="">STRATEGIC PLAN</a>
+                                                    </li>
+                                                    <li>
+                                                        <a class=" text-gray-700 bg-gray-100 px-5 py-3 rounded-lg" href="">RESEARCH PARK</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </li>
                             <li>
                                 <a class="px-5 text-lg" href="/people">People</a>
