@@ -41,6 +41,20 @@ body{
   .bottom-footer-bg{
     background-color: #141414;
   }
+  .bg-quick-link-1{
+      background-color: #0066b3;
+  }
+  .bg-quick-link-2{
+      background-color: #538240;
+  }
+  .bg-quick-link-3{
+      background-color: #ce491c;
+      margin-top: -82px;
+  }
+  .bg-quick-link-4{
+      background-color: #083a5b;
+      margin-top: -82px;
+  }
   .slider-area ul.slick-dots {
     position: absolute;
     text-align: center;
@@ -106,6 +120,10 @@ body{
     .collaborate-section .section-title h2::before{
         left: 15%;
         width: 85%;
+    }
+    .quick-link-section .section-title h2::before{
+        left: 13%;
+        width: 87%;
     }
   /* responsive layout */
   @media (max-width: 1400px) {

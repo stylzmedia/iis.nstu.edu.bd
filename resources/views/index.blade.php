@@ -468,6 +468,165 @@
     </section>
     {{-- collaborate section end --}}
 
+    {{-- quick link section start --}}
+    <section class="quick-link-section pt-10">
+        <div class="container">
+            {{-- section title --}}
+            <div class="section-title py-5">
+                <h2 class="primary-color font-bold uppercase text-2xl relative">Quick Links</h2>
+            </div>
+            {{-- section content start --}}
+            <div class="grid grid-cols-2">
+                {{-- single content --}}
+                <div class="flex">
+                    {{-- link content --}}
+                    <div class="bg-quick-link-1 link-content p-5 w-1/2 text-white">
+                        <h4 class=" text-3xl font-semibold mb-5">Future Students</h4>
+                        <ul>
+                            <li class="font-semibold uppercase text-xs py-3 border-b border-b-gray-200">
+                                <a class="hover:underline" href="">WHY IITS?</a>
+                            </li>
+                            <li class="font-semibold uppercase text-xs py-3 border-b border-b-gray-200">
+                                <a class="hover:underline" href="">GRADUATE ADMISSIONS</a>
+                            </li>
+                            <li class="font-semibold uppercase text-xs py-3 border-b border-b-gray-200">
+                                <a class="hover:underline" href="">UNDERGRADUATE ADMISSIONS</a>
+                            </li>
+                            <li class="font-semibold uppercase text-xs py-3">
+                                <a class="hover:underline" href="">UNC & CHAPEL HILL</a>
+                            </li>
+                        </ul>
+                    </div>
+                    {{-- image --}}
+                    <div class="link-image w-1/2">
+                        <img src="{{ asset('frontend/images/quicklink-1.jpg') }}" alt="">
+                    </div>
+                </div>
+
+                {{-- single content --}}
+                <div class="flex">
+                    {{-- link content --}}
+                    <div class="bg-quick-link-2 link-content p-5 w-1/2 text-white">
+                        <h4 class=" text-3xl font-semibold mb-5">Current Students</h4>
+                        <ul>
+                            <li class="font-semibold uppercase text-xs py-3 border-b border-b-gray-200">
+                                <a class="hover:underline" href="">STUDENT SERVICES</a>
+                            </li>
+                            <li class="font-semibold uppercase text-xs py-3 border-b border-b-gray-200">
+                                <a class="hover:underline" href="">CAREER SERVICES</a>
+                            </li>
+                            <li class="font-semibold uppercase text-xs py-3 border-b border-b-gray-200">
+                                <a class="hover:underline" href="">STUDENT ORGANIZATIONS</a>
+                            </li>
+                            <li class="font-semibold uppercase text-xs py-3">
+                                <a class="hover:underline" href="">FORMS</a>
+                            </li>
+                        </ul>
+                    </div>
+                    {{-- image --}}
+                    <div class="link-image w-1/2">
+                        <img src="{{ asset('frontend/images/quicklink-2.jpg') }}" alt="">
+                    </div>
+                </div>
+
+                {{-- single content --}}
+                <div class="flex">
+                    {{-- image --}}
+                    <div class="link-image w-1/2">
+                        <img src="{{ asset('frontend/images/quicklink-3.jpg') }}" alt="">
+                    </div>
+                    {{-- link content --}}
+                    <div class="bg-quick-link-3 link-content p-5 w-1/2 text-white">
+                        <h4 class=" text-3xl font-semibold mb-5">Faculty & Staff</h4>
+                        <ul>
+                            <li class="font-semibold uppercase text-xs py-3 border-b border-b-gray-200">
+                                <a class="hover:underline" href="">FACULTY DIRECTORY / STAFF DIRECTORY</a>
+                            </li>
+                            <li class="font-semibold uppercase text-xs py-3 border-b border-b-gray-200">
+                                <a class="hover:underline" href="">RESEARCH</a>
+                            </li>
+                            <li class="font-semibold uppercase text-xs py-3 border-b border-b-gray-200">
+                                <a class="hover:underline" href="">HUMAN RESOURCES</a>
+                            </li>
+                            <li class="font-semibold uppercase text-xs py-3">
+                                <a class="hover:underline" href="">FACULTY HANDBOOK</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                {{-- single content --}}
+                <div class="flex">
+                    {{-- image --}}
+                    <div class="link-image w-1/2">
+                        <img src="{{ asset('frontend/images/quicklink-4.jpg') }}" alt="">
+                    </div>
+                    {{-- link content --}}
+                    <div class="bg-quick-link-4 link-content p-5 w-1/2 text-white">
+                        <h4 class=" text-3xl font-semibold mb-5">Alumni</h4>
+                        <ul>
+                            <li class="font-semibold uppercase text-xs py-3 border-b border-b-gray-200">
+                                <a class="hover:underline" href="">SILSAA BOARD</a>
+                            </li>
+                            <li class="font-semibold uppercase text-xs py-3 border-b border-b-gray-200">
+                                <a class="hover:underline" href="">STAY CONNECTED</a>
+                            </li>
+                            <li class="font-semibold uppercase text-xs py-3 border-b border-b-gray-200">
+                                <a class="hover:underline" href="">AWARDS</a>
+                            </li>
+                            <li class="font-semibold uppercase text-xs py-3">
+                                <a class="hover:underline" href="">GIVE BACK TO SILS</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    {{-- quick link section end --}}
+
+    {{-- search section start --}}
+    <section class="search-section pb-10">
+        <div class="container">
+            {{-- search content start --}}
+            <div class="search-bg py-20" style="background-image: url('{{ asset('frontend/images/search-bg.jpg') }}')">
+                <div class="px-20 text-white">
+                    <div>
+                        <h4 class=" font-bold text-lg uppercase pb-10">NEED HELP FINDING SOMETHING?</h4>
+                    </div>
+                    <div class="flex space-x-5">
+                        <h2 class=" text-4xl pb-14">I'm looking for information about</h2>
+                        <div class="">
+                            <select name="" id="" class=" text-2xl bg-gray-50 border border-gray-300 text-gray-900 rounded focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                <option value="">topic</option>
+                                <option value="">Admissions</option>
+                                <option value="">Faculty and Staff</option>
+                                <option value="">Undergraduate Programs</option>
+                                <option value="">Student Funding</option>
+                                <option value="">Careers</option>
+                                <option value="">SILS News</option>
+                                <option value="">SILS Events</option>
+                                <option value="">Contact Information</option>
+                                <option value="">Giving to SILS</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="flex space-x-5">
+                        <h2 class="text-4xl pb-14">with keywords</h2>
+                       <div>
+                        <input class="py-3 px-5 rounded text-gray-600" type="search" name="" id="" placeholder="Search...">
+                        <button class=" py-3 px-10 rounded text-lg font-semibold primary-bg text-white ml-5" type="submit">Search</button>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            {{-- search content end --}}
+        </div>
+    </section>
+    {{-- search section end --}}
+
 
 
     {{-- Tab area start --}}
