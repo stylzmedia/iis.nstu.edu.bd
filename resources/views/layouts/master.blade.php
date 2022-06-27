@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>NSTU-IITS</title>
 
         <!-- Fonts -->
         {{-- <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet"> --}}
@@ -18,9 +18,9 @@
             {{-- Header area start --}}
             <header class="">
                 <!-- Top Header Start -->
-                <div class="container bg-white">
-                    <div class="container-box">
-                        <div class="py-6 flex justify-between">
+                <div class="top-header bg-white py-2">
+                    <div class="container">
+                        <div class="flex justify-between">
                             <div class="flex">
                                 <div class="pr-5">
                                     <a href="/">
@@ -29,7 +29,7 @@
                                 </div>
                                 <div class="mt-10 md:block hidden">
                                     <h4 class=" text-xl primary-color font-bold">Noakhali Science and Technology University</h4>
-                                    <h2 class=" text-2xl logo-red-color font-bold">Department of Microbiology</h2>
+                                    <h2 class=" text-2xl logo-red-color font-bold">Department of IIST</h2>
                                 </div>
                             </div>
                             <div class="lg:flex hidden items-center">
@@ -55,22 +55,37 @@
                     </div>
                 </div>
                 <!-- Navbar Area -->
-                <nav class="container">
-                    <div class="hidden lg:block nav-bg py-4">
-                        <div class="container-box">
-                            <ul class="flex text-white">
-                                <li><a class="px-4 border-r-2 text-lg" href="/about-us">About Us</a></li>
-                                <li><a class="px-4 border-r-2 text-lg" href="/service">Services </a></li>
-                                <li><a class="px-4 border-r-2 text-lg" href="/people">People</a></li>
-                                <li><a class="px-4 border-r-2 text-lg" href="/online-facilities">Online Facilities</a></li>
-                                <li><a class="px-4 border-r-2 text-lg" href="/alumni">Alumni</a></li>
-                                <li><a class="px-4 border-r-2 text-lg" href="/research">Research</a></li>
-                                <li><a class="px-4 border-r-2 text-lg" href="/news-and-event">News & Event</a></li>
-                                <li><a class="px-4 text-lg" href="/contact-us">Contuct Us</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
+                <div class="hidden lg:block bottom-header primary-bg py-4">
+                    <nav class="container">
+                        <ul class="flex text-white">
+                            <li>
+                                <a class="px-5 text-lg" href="/home">Home</a>
+                            </li>
+                            <li>
+                                <a class="px-5 text-lg" href="/about-us">About Us</a>
+                            </li>
+                            <li>
+                                <a class="px-5 text-lg" href="/service">Services </a>
+                            </li>
+                            <li>
+                                <a class="px-5 text-lg" href="/people">People</a>
+                            </li>
+                            <li>
+                                <a class="px-5 text-lg" href="/online-facilities">Online Facilities</a>
+                            </li>
+                            <li>
+                                <a class="px-5 text-lg" href="/alumni">Alumni</a>
+                            </li>
+                            <li>
+                                <a class="px-5 text-lg" href="/research">Research</a>
+                            </li>
+                            <li>
+                                <a class="px-5 text-lg" href="/contact-us">Contuct Us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
 
                 {{-- mobile menu --}}
                 <div class="navbar-menu relative z-50 hidden">

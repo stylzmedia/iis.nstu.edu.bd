@@ -472,14 +472,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   bottom: 0px;
   left: 0px;
 }
-.bottom-10 {
-  bottom: 2.5rem;
+.bottom-0 {
+  bottom: 0px;
 }
 .left-0 {
   left: 0px;
-}
-.bottom-0 {
-  bottom: 0px;
 }
 .right-0 {
   right: 0px;
@@ -864,13 +861,13 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 .pb-10 {
   padding-bottom: 2.5rem;
@@ -1065,11 +1062,6 @@ body{
   margin-right: auto;
     max-width: 1260px;
 }
-  .container-box {
-  margin-left: auto;
-  margin-right: auto;
-    max-width: 1140px;
-}
   .primary-color{
     color: #0066b3;
   }
@@ -1128,11 +1120,11 @@ body{
   }
 
   .slider-area ul.slick-dots li.slick-active {
-    border-color: #040158;
+    border-color: #0066b3;
   }
 
   .slider-area ul.slick-dots li.slick-active button {
-    background-color: #040158;
+    background-color: #0066b3;
   }
   .custom-h-600{
     height: 600px;
@@ -1175,11 +1167,6 @@ body{
         margin-left: auto;
         margin-right: auto;
     }
-    .container-box {
-    margin-left: auto;
-    margin-right: auto;
-      max-width: 1140px;
-  }
   }
   /* Large Screen */
   @media (max-width: 1260px) {
@@ -1188,11 +1175,6 @@ body{
         margin-left: auto;
         margin-right: auto;
     }
-    .container-box {
-    margin-left: auto;
-    margin-right: auto;
-      max-width: 1024px;
-  }
   }
   /* Tab Screen */
   @media (max-width: 991px) {
@@ -1201,11 +1183,6 @@ body{
         margin-left: auto;
         margin-right: auto;
     }
-    .container-box {
-    margin-left: auto;
-    margin-right: auto;
-      max-width: 700px;
-  }
     .education-tab {
       width: 700px;
       overflow-x: auto;
@@ -1218,11 +1195,6 @@ body{
         margin-left: auto;
         margin-right: auto;
     }
-    .container-box {
-    margin-left: auto;
-    margin-right: auto;
-      max-width: 500px;
-  }
     .education-tab {
       width: 500px;
       overflow-x: auto;
@@ -1235,11 +1207,6 @@ body{
         margin-left: auto;
         margin-right: auto;
     }
-    .container-box {
-    margin-left: auto;
-    margin-right: auto;
-      max-width: 300px;
-  }
     .education-tab {
       width: 300px;
       overflow-x: auto;
@@ -1252,11 +1219,6 @@ body{
         margin-left: auto;
         margin-right: auto;
     }
-    .container-box {
-    margin-left: auto;
-    margin-right: auto;
-      max-width: 250px;
-  }
     .education-tab {
       width: 250px;
       overflow-x: auto;

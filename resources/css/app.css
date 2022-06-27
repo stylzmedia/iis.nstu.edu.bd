@@ -11,10 +11,6 @@ body{
     @apply mx-auto;
     max-width: 1260px;
   }
-  .container-box{
-    @apply mx-auto;
-    max-width: 1140px;
-  }
   .primary-color{
     color: #0066b3;
   }
@@ -73,11 +69,11 @@ body{
   }
 
   .slider-area ul.slick-dots li.slick-active {
-    border-color: #040158;
+    border-color: #0066b3;
   }
 
   .slider-area ul.slick-dots li.slick-active button {
-    background-color: #040158;
+    background-color: #0066b3;
   }
   .custom-h-600{
     height: 600px;
@@ -117,10 +113,6 @@ body{
         max-width: 1220px;
         @apply mx-auto;
     }
-    .container-box{
-      @apply mx-auto;
-      max-width: 1140px;
-    }
   }
   /* Large Screen */
   @media (max-width: 1260px) {
@@ -128,20 +120,12 @@ body{
         max-width: 1140px;
         @apply mx-auto;
     }
-    .container-box{
-      @apply mx-auto;
-      max-width: 1024px;
-    }
   }
   /* Tab Screen */
   @media (max-width: 991px) {
     .container{
         max-width: 720px;
         @apply mx-auto;
-    }
-    .container-box{
-      @apply mx-auto;
-      max-width: 700px;
     }
     .education-tab {
       width: 700px;
@@ -154,10 +138,6 @@ body{
         max-width: 540px;
         @apply mx-auto;
     }
-    .container-box{
-      @apply mx-auto;
-      max-width: 500px;
-    }
     .education-tab {
       width: 500px;
       overflow-x: auto;
@@ -169,10 +149,6 @@ body{
         max-width: 320px;
         @apply mx-auto;
     }
-    .container-box{
-      @apply mx-auto;
-      max-width: 300px;
-    }
     .education-tab {
       width: 300px;
       overflow-x: auto;
@@ -183,10 +159,6 @@ body{
     .container, .controller{
         width: 280px;
         @apply mx-auto;
-    }
-    .container-box{
-      @apply mx-auto;
-      max-width: 250px;
     }
     .education-tab {
       width: 250px;

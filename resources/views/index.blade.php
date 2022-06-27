@@ -1,50 +1,38 @@
 @extends('layouts.master')
 
 @section('content')
-    {{-- Welcome area start --}}
+    {{-- Slider area start --}}
     <div class="container">
-        <div class="lg:flex mt-5 pb-10 border-t border-gray-500">
+        <div class="lg:flex pb-10 border-t border-gray-500">
             <!-- welcome slider -->
             <div class="lg:w-full w-full">
                 <div class="slider-area">
                     <!-- single slider -->
                     <div class="relative">
                         <img class="custom-slider-h-400" src="{{ asset('frontend/images/slider-1.jpg') }}" alt="">
-                        <div class="absolute bottom-10 left-0 bg-black bg-opacity-50 p-10">
+                        <div class="absolute bottom-0 w-full left-0 bg-black bg-opacity-50 p-10">
                             <p class=" text-white text-lg">Our Faculty tech a wide portfolio microbiology courses at the undergraduate and graduate levels.</p>
                         </div>
                     </div>
                     <!-- single slider -->
                     <div class="relative">
                         <img class="custom-slider-h-400" src="{{ asset('frontend/images/slider-2.jpg') }}" alt="">
-                        <div class="absolute bottom-10 left-0 bg-black bg-opacity-50 p-10">
+                        <div class="absolute bottom-0 w-full left-0 bg-black bg-opacity-50 p-10">
                             <p class=" text-white text-lg">Our Faculty tech a wide portfolio microbiology courses at the undergraduate and graduate levels.</p>
                         </div>
                     </div>
                     <!-- single slider -->
                     <div class="relative">
                         <img class="custom-slider-h-400" src="{{ asset('frontend/images/slider-3.jpg') }}" alt="">
-                        <div class="absolute bottom-10 left-0 bg-black bg-opacity-50 p-10">
+                        <div class="absolute bottom-0 w-full left-0 bg-black bg-opacity-50 p-10">
                             <p class=" text-white text-lg">Our Faculty tech a wide portfolio microbiology courses at the undergraduate and graduate levels.</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- welcome content -->
-            {{-- <div class="lg:w-1/2 w-full px-6">
-                <h2 class=" py-8 uppercase text-3xl text-gray-500">Welcome</h2>
-                <p class=" text-gray-500 text-lg leading-8 pr-10">
-                    Our Faculty tech a wide portfolio microbiology courses at the undergraduate and graduate levels. We also serve at the as the home department for the Graduate
-                    Field of Microbiology. (With over 40 affiliated faculty members) and provide a center of expertise for numerous aspects of microbial biology. Research within
-                    our department is focused on prokaryotic molecular biology and environmental microbiology.
-                </p>
-                <p class="pt-10 pb-10">
-                    <nuxt-link class="px-4 py-3 btn-bg text-white rounded hover:bg-blue-900 hover:text-yellow-300" to="/">Read More</nuxt-link>
-                </p>
-            </div> --}}
         </div>
     </div>
-    {{-- Welcome area end --}}
+    {{-- Slider area end --}}
 
      {{-- study section start --}}
     <div class="study-section py-10">
@@ -65,7 +53,14 @@
                             <a href="">Explore undergraduate study at Sheffield</a>
                         </h4>
                         <p class=" text-gray-600 font-light text-base mb-2">Make Sheffield the start of something special. When you study here you get one of the best student experiences in the UK.</p>
-                        <span class="primary-color font-bold">Undergraduate study <span class="ml-2"><i class="fa-solid fa-arrow-right-long"></i></span></span>
+                        <a href="">
+                            <span class="primary-color font-bold">
+                                Undergraduate study
+                                <span class="ml-2">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </span>
+                            </span>
+                        </a>
                     </div>
                 </div>
 
@@ -79,7 +74,14 @@
                             <a href="">Explore undergraduate study at Sheffield</a>
                         </h4>
                         <p class=" text-gray-600 font-light text-base mb-2">Make Sheffield the start of something special. When you study here you get one of the best student experiences in the UK.</p>
-                        <span class="primary-color font-bold">Undergraduate study <span class="ml-2"><i class="fa-solid fa-arrow-right-long"></i></span></span>
+                        <a href="">
+                            <span class="primary-color font-bold">
+                                Undergraduate study
+                                <span class="ml-2">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </span>
+                            </span>
+                        </a>
                     </div>
                 </div>
 
@@ -93,7 +95,14 @@
                             <a href="">Explore undergraduate study at Sheffield</a>
                         </h4>
                         <p class=" text-gray-600 font-light text-base mb-2">Make Sheffield the start of something special. When you study here you get one of the best student experiences in the UK.</p>
-                        <span class="primary-color font-bold">Undergraduate study <span class="ml-2"><i class="fa-solid fa-arrow-right-long"></i></span></span>
+                        <a href="">
+                            <span class="primary-color font-bold">
+                                Undergraduate study
+                                <span class="ml-2">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </span>
+                            </span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -134,7 +143,14 @@
                             <a href="">Research that changes lives</a>
                         </h4>
                         <p class=" text-gray-600 font-light text-base mb-2">Our four flagship research institutes are taking an interdisciplinary approach to the biggest challenges facing the planet.</p>
-                        <span class="primary-color font-bold">Our flagship institutes<span class="ml-2"><i class="fa-solid fa-arrow-right-long"></i></span></span>
+                        <a href="">
+                            <span class="primary-color font-bold">
+                                Our flagship institutes
+                                <span class="ml-2">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </span>
+                            </span>
+                        </a>
                     </div>
                 </div>
 
@@ -148,7 +164,14 @@
                             <a href="">Our impact</a>
                         </h4>
                         <p class=" text-gray-600 font-light text-base mb-2">Our researchers are making life-changing discoveries and solving problems that have a global impact.</p>
-                        <span class="primary-color font-bold">Our approach <span class="ml-2"><i class="fa-solid fa-arrow-right-long"></i></span></span>
+                        <a href="">
+                            <span class="primary-color font-bold">
+                                Our approach
+                                <span class="ml-2">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </span>
+                            </span>
+                        </a>
                     </div>
                 </div>
 
@@ -162,7 +185,14 @@
                             <a href="">Covid-19: our research and innovation</a>
                         </h4>
                         <p class=" text-gray-600 font-light text-base mb-2">Make Sheffield the start of something special. When you study here you get one of the best student experiences in the UK.</p>
-                        <span class="primary-color font-bold">Explore our research and innovation <span class="ml-2"><i class="fa-solid fa-arrow-right-long"></i></span></span>
+                        <a href="">
+                            <span class="primary-color font-bold">
+                                Explore our research and innovation
+                                <span class="ml-2">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </span>
+                            </span>
+                        </a>
                     </div>
                 </div>
 
@@ -207,7 +237,14 @@
                             <a href="">Research that changes lives</a>
                         </h4>
                         <p class=" text-gray-600 font-light text-base mb-2">Our four flagship research institutes are taking an interdisciplinary approach to the biggest challenges facing the planet.</p>
-                        <span class="primary-color font-bold">Our flagship institutes<span class="ml-2"><i class="fa-solid fa-arrow-right-long"></i></span></span>
+                        <a href="">
+                            <span class="primary-color font-bold">
+                                Our flagship institutes
+                                <span class="ml-2">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </span>
+                            </span>
+                        </a>
                     </div>
                 </div>
 
@@ -222,7 +259,14 @@
                             <a href="">Our impact</a>
                         </h4>
                         <p class=" text-gray-600 font-light text-base mb-2">Our researchers are making life-changing discoveries and solving problems that have a global impact.</p>
-                        <span class="primary-color font-bold">Our approach <span class="ml-2"><i class="fa-solid fa-arrow-right-long"></i></span></span>
+                        <a href="">
+                            <span class="primary-color font-bold">
+                                Our approach
+                                <span class="ml-2">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </span>
+                            </span>
+                        </a>
                     </div>
                 </div>
 
@@ -237,7 +281,15 @@
                             <a href="">Covid-19: our research and innovation</a>
                         </h4>
                         <p class=" text-gray-600 font-light text-base mb-2">Make Sheffield the start of something special. When you study here you get one of the best student experiences in the UK.</p>
-                        <span class="primary-color font-bold">Explore our research and innovation <span class="ml-2"><i class="fa-solid fa-arrow-right-long"></i></span></span>
+
+                        <a href="">
+                            <span class="primary-color font-bold">
+                                Explore our research and innovation
+                                <span class="ml-2">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </span>
+                            </span>
+                        </a>
                     </div>
                 </div>
 
@@ -281,7 +333,14 @@
                             <a href="">Research that changes lives</a>
                         </h4>
                         <p class=" text-gray-600 font-light text-base mb-2">Our four flagship research institutes are taking an interdisciplinary approach to the biggest challenges facing the planet.</p>
-                        <span class="primary-color font-bold">Our flagship institutes<span class="ml-2"><i class="fa-solid fa-arrow-right-long"></i></span></span>
+                        <a href="">
+                            <span class="primary-color font-bold">
+                                Our flagship institutes
+                                <span class="ml-2">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </span>
+                            </span>
+                        </a>
                     </div>
                 </div>
 
@@ -295,7 +354,14 @@
                             <a href="">Our impact</a>
                         </h4>
                         <p class=" text-gray-600 font-light text-base mb-2">Our researchers are making life-changing discoveries and solving problems that have a global impact.</p>
-                        <span class="primary-color font-bold">Our approach <span class="ml-2"><i class="fa-solid fa-arrow-right-long"></i></span></span>
+                        <a href="">
+                            <span class="primary-color font-bold">
+                                Our approach
+                                <span class="ml-2">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </span>
+                            </span>
+                        </a>
                     </div>
                 </div>
 
@@ -309,7 +375,14 @@
                             <a href="">Covid-19: our research and innovation</a>
                         </h4>
                         <p class=" text-gray-600 font-light text-base mb-2">Make Sheffield the start of something special. When you study here you get one of the best student experiences in the UK.</p>
-                        <span class="primary-color font-bold">Explore our research and innovation <span class="ml-2"><i class="fa-solid fa-arrow-right-long"></i></span></span>
+                        <a href="">
+                            <span class="primary-color font-bold">
+                                Explore our research and innovation
+                                <span class="ml-2">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </span>
+                            </span>
+                        </a>
                     </div>
                 </div>
 
@@ -338,7 +411,14 @@
                             <a href="">Explore undergraduate study at Sheffield</a>
                         </h4>
                         <p class=" text-gray-600 font-light text-base mb-2">Make Sheffield the start of something special. When you study here you get one of the best student experiences in the UK.</p>
-                        <span class="primary-color font-bold">Business and research <span class="ml-2"><i class="fa-solid fa-arrow-right-long"></i></span></span>
+                        <a href="">
+                            <span class="primary-color font-bold">
+                                Business and research
+                                <span class="ml-2">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </span>
+                            </span>
+                        </a>
                     </div>
                 </div>
 
@@ -352,7 +432,14 @@
                             <a href="">Explore undergraduate study at Sheffield</a>
                         </h4>
                         <p class=" text-gray-600 font-light text-base mb-2">Make Sheffield the start of something special. When you study here you get one of the best student experiences in the UK.</p>
-                        <span class="primary-color font-bold">International partnerships <span class="ml-2"><i class="fa-solid fa-arrow-right-long"></i></span></span>
+                        <a href="">
+                            <span class="primary-color font-bold">
+                                International partnerships
+                                <span class="ml-2">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </span>
+                            </span>
+                        </a>
                     </div>
                 </div>
 
@@ -366,7 +453,14 @@
                             <a href="">Explore undergraduate study at Sheffield</a>
                         </h4>
                         <p class=" text-gray-600 font-light text-base mb-2">Make Sheffield the start of something special. When you study here you get one of the best student experiences in the UK.</p>
-                        <span class="primary-color font-bold">Our role in the city and region <span class="ml-2"><i class="fa-solid fa-arrow-right-long"></i></span></span>
+                        <a href="">
+                            <span class="primary-color font-bold">
+                                Our role in the city and region
+                                <span class="ml-2">
+                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                </span>
+                            </span>
+                        </a>
                     </div>
                 </div>
             </div>
