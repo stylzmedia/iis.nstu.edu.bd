@@ -2,35 +2,54 @@
 
 @section('content')
     {{-- Slider area start --}}
-    <div class="container">
-        <div class="lg:flex pb-10 border-t border-gray-500">
-            <!-- welcome slider -->
-            <div class="lg:w-full w-full">
-                <div class="slider-area">
-                    <!-- single slider -->
-                    <div class="relative">
-                        <img class="custom-slider-h-400" src="{{ asset('frontend/images/slider-1.jpg') }}" alt="">
-                        <div class="absolute bottom-0 md:w-1/2 h-full top-0 left-0 bg-black bg-opacity-50 p-10">
-                            <h4 class=" md:text-3xl text-xl font-bold text-white border-b border-gray-200 pb-2 mb-5">Department of Information Sciences and Library Management</h4>
-                            <p class="text-white text-lg">Our Faculty tech a wide portfolio microbiology courses at the undergraduate and graduate levels.</p>
+    <div class="lg:flex pb-10 border-t border-gray-500">
+        <!-- welcome slider -->
+        <div class="lg:w-full w-full">
+            <div class="slider-area">
+                <!-- single slider -->
+                <div class="relative">
+                    <div class="custom-slider">
+                        <div class="slider-bg h-full" style="background-image: url('{{ asset('frontend/images/slider-1.jpg') }}');">
+                            <div class="bg-overlay absolute bottom-0 md:w-1/2 h-full top-0 left-0 bg-black bg-opacity-50 p-10"></div>
+                            <div class="container">
+                                <div class="slider-text z-10 relative pt-10 w-2/5">
+                                    <h4 class=" md:text-3xl text-xl font-bold text-white border-b border-gray-200 pb-2 mb-5">Department of Information Sciences and Library Management</h4>
+                                    <p class="text-white text-lg">Our Faculty tech a wide portfolio microbiology courses at the undergraduate and graduate levels.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <!-- single slider -->
-                    <div class="relative">
-                        <img class="custom-slider-h-400" src="{{ asset('frontend/images/slider-2.jpg') }}" alt="">
-                        <div class="absolute bottom-0 md:w-1/2 h-full top-0 left-0 bg-black bg-opacity-50 p-10">
-                            <h4 class=" md:text-3xl text-xl font-bold text-white border-b border-gray-200 pb-2 mb-5">Department of Information Sciences and Library Management</h4>
-                            <p class="text-white text-lg">Our Faculty tech a wide portfolio microbiology courses at the undergraduate and graduate levels.</p>
+
+                </div>
+                <!-- single slider -->
+                <div class="relative">
+                    <div class="custom-slider">
+                        <div class="slider-bg h-full" style="background-image: url('{{ asset('frontend/images/slider-2.jpg') }}');">
+                            <div class="bg-overlay absolute bottom-0 md:w-1/2 h-full top-0 left-0 bg-black bg-opacity-50 p-10"></div>
+                            <div class="container">
+                                <div class="slider-text z-10 relative pt-10 w-2/5">
+                                    <h4 class=" md:text-3xl text-xl font-bold text-white border-b border-gray-200 pb-2 mb-5">Department of Information Sciences and Library Management</h4>
+                                    <p class="text-white text-lg">Our Faculty tech a wide portfolio microbiology courses at the undergraduate and graduate levels.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <!-- single slider -->
-                    <div class="relative">
-                        <img class="custom-slider-h-400" src="{{ asset('frontend/images/slider-3.jpg') }}" alt="">
-                        <div class="absolute bottom-0 md:w-1/2 h-full top-0 left-0 bg-black bg-opacity-50 p-10">
-                            <h4 class="md:text-3xl text-xl font-bold text-white border-b border-gray-200 pb-2 mb-5">Department of Information Sciences and Library Management</h4>
-                            <p class=" text-white text-lg">Our Faculty tech a wide portfolio microbiology courses at the undergraduate and graduate levels.</p>
+
+                </div>
+                <!-- single slider -->
+                <div class="relative">
+                    <div class="custom-slider">
+                        <div class="slider-bg h-full" style="background-image: url('{{ asset('frontend/images/slider-3.jpg') }}');">
+                            <div class="bg-overlay absolute bottom-0 md:w-1/2 h-full top-0 left-0 bg-black bg-opacity-50 p-10"></div>
+                            <div class="container">
+                                <div class="slider-text z-10 relative pt-10 w-2/5">
+                                    <h4 class=" md:text-3xl text-xl font-bold text-white border-b border-gray-200 pb-2 mb-5">Department of Information Sciences and Library Management</h4>
+                                    <p class="text-white text-lg">Our Faculty tech a wide portfolio microbiology courses at the undergraduate and graduate levels.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -519,7 +538,7 @@
                                 <a class="hover:underline" href="">CAREER SERVICES</a>
                             </li>
                             <li class="font-semibold uppercase text-xs py-3 border-b border-b-gray-200">
-                                <a class="hover:underline" href="">STUDENT ORGANIZATIONS</a>
+                                <a class="hover:underline" href="">STUDENT Activites</a>
                             </li>
                             <li class="font-semibold uppercase text-xs py-3">
                                 <a class="hover:underline" href="">FORMS</a>
@@ -566,7 +585,7 @@
                     </div>
                     {{-- link content --}}
                     <div class="bg-quick-link-4 link-content p-5 lg:w-1/2 text-white">
-                        <h4 class=" text-3xl font-semibold mb-5">Alumni</h4>
+                        <h4 class=" text-3xl font-semibold mb-5">Outreach</h4>
                         <ul>
                             <li class="font-semibold uppercase text-xs py-3 border-b border-b-gray-200">
                                 <a class="hover:underline" href="">SILSAA BOARD</a>
@@ -575,10 +594,10 @@
                                 <a class="hover:underline" href="">STAY CONNECTED</a>
                             </li>
                             <li class="font-semibold uppercase text-xs py-3 border-b border-b-gray-200">
-                                <a class="hover:underline" href="">AWARDS</a>
+                                <a class="hover:underline" href="">Forms</a>
                             </li>
                             <li class="font-semibold uppercase text-xs py-3">
-                                <a class="hover:underline" href="">GIVE BACK TO SILS</a>
+                                <a class="hover:underline" href="">Download</a>
                             </li>
                         </ul>
                     </div>
