@@ -90,11 +90,14 @@ body{
     background-color: #0066b3;
   }
   .slider-bg{
-    background-size: 100% 100%;
+    background-size: cover;
     height: 70vh;
+    background-position: center center;
+    background-repeat: no-repeat;
   }
   .slider-text {
     padding-top: 12%;
+    margin-left: 5%;
   }
   /* calendar */
   #calendar {
@@ -121,7 +124,7 @@ body{
    }
   /* Mega menu */
   .mega-menu {
-    display: block;
+    display: none;
     left: 0;
     position: absolute;
     text-align: left;
@@ -144,6 +147,7 @@ body{
 
   .hoverable:hover .mega-menu {
     opacity: 1;
+    display: block;
   }
   .custom-h-600{
     height: 600px;
