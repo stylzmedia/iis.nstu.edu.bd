@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/people', function () {
-    return view('people');
+    return view('faculty');
 });
 
 Route::get('/single-people', function () {
