@@ -10,9 +10,9 @@
                 <div class="relative">
                     <div class="custom-slider">
                         <div class="slider-bg h-full" style="background-image: url('{{ asset('frontend/images/slider-1.jpg') }}');">
-                            <div class="bg-overlay absolute bottom-0 md:w-1/2 h-full top-0 left-0 bg-black bg-opacity-50 p-10"></div>
+                            <div class="bg-overlay absolute bottom-0 md:w-1/2 w-full h-full top-0 left-0 bg-black bg-opacity-50 p-10"></div>
                             <div class="container">
-                                <div class="slider-text z-10 relative pt-10 w-2/5">
+                                <div class="slider-text z-10 relative pt-10 md:w-2/5">
                                     <h4 class=" md:text-3xl text-xl font-bold text-white border-b border-gray-200 pb-2 mb-5">Department of Information Sciences and Library Management</h4>
                                     <p class="text-white text-lg">Our Faculty tech a wide portfolio microbiology courses at the undergraduate and graduate levels.</p>
                                 </div>
@@ -25,9 +25,9 @@
                 <div class="relative">
                     <div class="custom-slider">
                         <div class="slider-bg h-full" style="background-image: url('{{ asset('frontend/images/slider-2.jpg') }}');">
-                            <div class="bg-overlay absolute bottom-0 md:w-1/2 h-full top-0 left-0 bg-black bg-opacity-50 p-10"></div>
+                            <div class="bg-overlay absolute bottom-0 md:w-1/2 w-full h-full top-0 left-0 bg-black bg-opacity-50 p-10"></div>
                             <div class="container">
-                                <div class="slider-text z-10 relative pt-10 w-2/5">
+                                <div class="slider-text z-10 relative pt-10 md:w-2/5">
                                     <h4 class=" md:text-3xl text-xl font-bold text-white border-b border-gray-200 pb-2 mb-5">Department of Information Sciences and Library Management</h4>
                                     <p class="text-white text-lg">Our Faculty tech a wide portfolio microbiology courses at the undergraduate and graduate levels.</p>
                                 </div>
@@ -40,9 +40,9 @@
                 <div class="relative">
                     <div class="custom-slider">
                         <div class="slider-bg h-full" style="background-image: url('{{ asset('frontend/images/slider-3.jpg') }}');">
-                            <div class="bg-overlay absolute bottom-0 md:w-1/2 h-full top-0 left-0 bg-black bg-opacity-50 p-10"></div>
+                            <div class="bg-overlay absolute bottom-0 md:w-1/2 w-full h-full top-0 left-0 bg-black bg-opacity-50 p-10"></div>
                             <div class="container">
-                                <div class="slider-text z-10 relative pt-10 w-2/5">
+                                <div class="slider-text z-10 relative pt-10 md:w-2/5">
                                     <h4 class=" md:text-3xl text-xl font-bold text-white border-b border-gray-200 pb-2 mb-5">Department of Information Sciences and Library Management</h4>
                                     <p class="text-white text-lg">Our Faculty tech a wide portfolio microbiology courses at the undergraduate and graduate levels.</p>
                                 </div>
@@ -59,7 +59,7 @@
     {{-- freatured section start --}}
     <div class="freatured-section py-10">
         <div class="container">
-            <div class="grid grid-cols-2 gap-10">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-10 lg:space-y-0 space-y-5">
                 {{-- vedio freatured section start --}}
                 <div class="freatured-video-section">
                     {{-- section title --}}
@@ -133,7 +133,7 @@
     {{-- notice section start --}}
     <div class="notice-section py-10">
         <div class="container">
-            <div class="grid grid-cols-2 gap-10">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-10 lg:space-y-0 space-y-5">
                 {{-- notice content start --}}
                 <div class="notice-content-section">
                     {{-- section title --}}
@@ -246,6 +246,19 @@
                     </div>
                 </div>
                 {{-- notice content end --}}
+
+                {{-- event calendar section start --}}
+                <div class="event-calendar-section">
+                    {{-- section title --}}
+                    <div class="featured-section-title py-5">
+                        <h2 class="primary-color font-bold uppercase text-2xl relative">Academic Calendar</h2>
+                    </div>
+                    {{-- event calender content --}}
+                    <div class="event-calendar bg-white p-2 rounded-md">
+                        <div id="calendar"></div>
+                    </div>
+                </div>
+                {{-- event calendar section end --}}
             </div>
         </div>
     </div>

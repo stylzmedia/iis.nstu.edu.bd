@@ -91,7 +91,16 @@ body{
   }
   .slider-bg{
     background-size: 100% 100%;
-    height: 600px;
+    height: 70vh;
+  }
+  .slider-text {
+    padding-top: 12%;
+  }
+  /* calendar */
+  #calendar {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0 5px;
   }
   /* freatured video and news section */
   .news-content{
@@ -103,7 +112,7 @@ body{
   }
   /* notice section */
   .notice-content {
-    height: 423px;
+    height: 540px;
     overflow-y: scroll;
   }
   .notice-date {
@@ -134,7 +143,7 @@ body{
   }
 
   .hoverable:hover .mega-menu {
-    /* opacity: 1; */
+    opacity: 1;
   }
   .custom-h-600{
     height: 600px;
@@ -177,6 +186,10 @@ body{
     .container{
         max-width: 1220px;
         @apply mx-auto;
+    }
+    .notice-content {
+        height: 525px;
+        overflow-y: scroll;
     }
   }
   /* Large Screen */
@@ -226,6 +239,13 @@ body{
     .bg-quick-link-4 {
         margin-top: 0;
     }
+    .slider-bg {
+        height: 100% !important;
+    }
+    .slider-text {
+        padding-top: 10%;
+        padding-bottom: 10%;
+      }
   }
   /* Tab Screen */
   @media (max-width: 767px) {
@@ -237,6 +257,9 @@ body{
       width: 500px;
       overflow-x: auto;
     }
+    .freatured-video iframe {
+        width: 100% !important;
+      }
   }
   /* Mobile Screen */
   @media (max-width: 575px) {

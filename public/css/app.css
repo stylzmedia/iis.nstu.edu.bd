@@ -634,9 +634,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .w-full {
   width: 100%;
 }
-.w-2\/5 {
-  width: 40%;
-}
 .w-auto {
   width: auto;
 }
@@ -676,9 +673,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .cursor-pointer {
   cursor: pointer;
 }
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -697,8 +691,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .justify-between {
   justify-content: space-between;
 }
-.gap-10 {
-  gap: 2.5rem;
+.space-y-5 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 .space-x-5 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
@@ -709,11 +705,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-space-y-reverse: 0;
   margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
-}
-.space-y-5 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 .space-x-6 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
@@ -834,14 +825,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .p-10 {
   padding: 2.5rem;
 }
+.p-2 {
+  padding: 0.5rem;
+}
 .p-5 {
   padding: 1.25rem;
 }
 .p-2\.5 {
   padding: 0.625rem;
-}
-.p-2 {
-  padding: 0.5rem;
 }
 .p-6 {
   padding: 1.5rem;
@@ -1188,7 +1179,16 @@ body{
   }
   .slider-bg{
     background-size: 100% 100%;
-    height: 600px;
+    height: 70vh;
+  }
+  .slider-text {
+    padding-top: 12%;
+  }
+  /* calendar */
+  #calendar {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0 5px;
   }
   /* freatured video and news section */
   .news-content{
@@ -1200,7 +1200,7 @@ body{
   }
   /* notice section */
   .notice-content {
-    height: 423px;
+    height: 540px;
     overflow-y: scroll;
   }
   .notice-date {
@@ -1231,7 +1231,7 @@ body{
   }
 
   .hoverable:hover .mega-menu {
-    /* opacity: 1; */
+    opacity: 1;
   }
   .custom-h-600{
     height: 600px;
@@ -1277,6 +1277,10 @@ body{
         max-width: 1220px;
         margin-left: auto;
         margin-right: auto;
+    }
+    .notice-content {
+        height: 525px;
+        overflow-y: scroll;
     }
   }
   /* Large Screen */
@@ -1328,6 +1332,13 @@ body{
     .bg-quick-link-4 {
         margin-top: 0;
     }
+    .slider-bg {
+        height: 100% !important;
+    }
+    .slider-text {
+        padding-top: 10%;
+        padding-bottom: 10%;
+      }
   }
   /* Tab Screen */
   @media (max-width: 767px) {
@@ -1340,6 +1351,9 @@ body{
       width: 500px;
       overflow-x: auto;
     }
+    .freatured-video iframe {
+        width: 100% !important;
+      }
   }
   /* Mobile Screen */
   @media (max-width: 575px) {
@@ -1550,6 +1564,10 @@ body{
     width: 50%;
   }
 
+  .md\:w-2\/5 {
+    width: 40%;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1645,12 +1663,16 @@ body{
     width: 33.333333%;
   }
 
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .lg\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  .lg\:gap-10 {
+    gap: 2.5rem;
   }
 
   .lg\:gap-5 {

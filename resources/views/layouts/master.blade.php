@@ -9,6 +9,7 @@
         <!-- Fonts -->
         {{-- <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet"> --}}
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.css">
         <!-- Styles -->
         <link rel="stylesheet" type="text/css" href="{{ asset('frontend/js/slick/slick.css') }}"/>
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -391,6 +392,9 @@
         </script>
         <script type="text/javascript" src="{{ asset('frontend/js/slick/slick.min.js') }}"></script>
         <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/locale-all.js"></script>
         <script src="{{ asset('frontend/js/main.js') }}"></script>
 
         <script>
@@ -433,6 +437,81 @@
                     }
                 }
             });
+        </script>
+
+        <script>
+            $(document).ready(function() {
+
+                $('#calendar').fullCalendar({
+                locale: 'bd',
+                header: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'month,basicWeek,basicDay'
+                },
+                defaultDate: '2022-06-12',
+                navLinks: true, // can click day/week names to navigate views
+                editable: true,
+                eventLimit: true, // allow "more" link when too many events
+                events: [
+                    {
+                    title: 'All Day Event',
+                    start: '2022-06-01'
+                    },
+                    {
+                    title: 'Long Event',
+                    start: '2022-03-07',
+                    end: '2022-06-10'
+                    },
+                    {
+                    id: 999,
+                    title: 'Repeating Event',
+                    start: '2022-06-09T16:00:00'
+                    },
+                    {
+                    id: 999,
+                    title: 'Repeating Event',
+                    start: '2022-06-16T16:00:00'
+                    },
+                    {
+                    title: 'Conference',
+                    start: '2022-06-11',
+                    end: '2022-06-13'
+                    },
+                    {
+                    title: 'Meeting',
+                    start: '2022-06-12T10:30:00',
+                    end: '2022-06-12T12:30:00'
+                    },
+                    {
+                    title: 'Lunch',
+                    start: '2022-06-12T12:00:00'
+                    },
+                    {
+                    title: 'Meeting',
+                    start: '2022-06-12T14:30:00'
+                    },
+                    {
+                    title: 'Happy Hour',
+                    start: '2022-06-12T17:30:00'
+                    },
+                    {
+                    title: 'Dinner',
+                    start: '2022-06-12T20:00:00'
+                    },
+                    {
+                    title: 'Birthday Party',
+                    start: '2022-06-13T07:00:00'
+                    },
+                    {
+                    title: 'Click for Google',
+                    url: 'http://google.com/',
+                    start: '2022-06-28'
+                    }
+                ]
+                });
+
+                });
         </script>
 
     </body>
