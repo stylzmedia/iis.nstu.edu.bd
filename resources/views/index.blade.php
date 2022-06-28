@@ -56,81 +56,200 @@
     </div>
     {{-- Slider area end --}}
 
-     {{-- study section start --}}
-    <div class="study-section py-10">
+    {{-- freatured section start --}}
+    <div class="freatured-section py-10">
         <div class="container">
-            {{-- section title --}}
-            <div class="section-title py-5">
-                <h2 class="primary-color font-bold uppercase text-2xl relative">STUDY</h2>
-            </div>
-            {{-- section content --}}
-            <div class=" lg:grid lg:grid-cols-3 lg:gap-5 lg:space-y-0 space-y-10">
-                {{-- single stydy content --}}
-                <div class="bg-white rounded-md shadow-lg">
-                    <div class="">
-                        <img src="{{ asset('frontend/images/stydy-1.jpg') }}" alt="">
+            <div class="grid grid-cols-2 gap-10">
+                {{-- vedio freatured section start --}}
+                <div class="freatured-video-section">
+                    {{-- section title --}}
+                    <div class="featured-section-title py-5">
+                        <h2 class="primary-color font-bold uppercase text-2xl relative">Featured Video</h2>
                     </div>
-                    <div class="p-5">
-                        <h4 class=" text-gray-900 font-black text-xl mb-2">
-                            <a href="">Explore undergraduate study at Sheffield</a>
-                        </h4>
-                        <p class=" text-gray-600 font-light text-base mb-2">Make Sheffield the start of something special. When you study here you get one of the best student experiences in the UK.</p>
-                        <a href="">
-                            <span class="primary-color font-bold">
-                                Undergraduate study
-                                <span class="ml-2">
-                                    <i class="fa-solid fa-arrow-right-long"></i>
-                                </span>
-                            </span>
-                        </a>
+                    <div class="freatured-video">
+                        <iframe width="570" height="315" src="https://www.youtube.com/embed/GyUniAl9Aig" title="Dr. Muhammad Abdul-Mageed - CRC in Natural Language Processing and Machine Learning" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
+                {{-- vedio freatured section end --}}
 
-                {{-- single stydy content --}}
-                <div class="bg-white rounded-md shadow-lg">
-                    <div class="">
-                        <img src="{{ asset('frontend/images/study-2.jpg') }}" alt="">
+                {{-- freatured news section start --}}
+                <div class="freatured-news-section">
+                    {{-- section title --}}
+                    <div class="featured-section-title py-5">
+                        <h2 class="primary-color font-bold uppercase text-2xl relative">News</h2>
                     </div>
-                    <div class="p-5">
-                        <h4 class=" text-gray-900 font-black text-xl mb-2">
-                            <a href="">Explore undergraduate study at Sheffield</a>
-                        </h4>
-                        <p class=" text-gray-600 font-light text-base mb-2">Make Sheffield the start of something special. When you study here you get one of the best student experiences in the UK.</p>
-                        <a href="">
-                            <span class="primary-color font-bold">
-                                Undergraduate study
-                                <span class="ml-2">
-                                    <i class="fa-solid fa-arrow-right-long"></i>
-                                </span>
-                            </span>
-                        </a>
-                    </div>
-                </div>
+                    {{-- section content start --}}
+                    <div class="freatured-news">
+                        {{-- single news section --}}
+                        <div class="flex space-x-5 mb-5">
+                            <div class="news-img">
+                                <img class=" h-32 w-auto" src="{{ asset('frontend/images/research-1.jpg') }}" alt="">
+                            </div>
+                            <div class="news-content">
+                                <h4 class="primary-color font-bold text-sm mb-2">
+                                    <a href="">Research that changes lives</a>
+                                </h4>
+                                <p class=" text-gray-400 text-sm font-normal mb-2">Our four flagship research institutes are taking an interdisciplinary approach to the biggest challenges facing the planet.</p>
+                                <a class="primary-color font-bold text-xs hover:underline" href="">Read More</a>
+                            </div>
+                        </div>
 
-                {{-- single stydy content --}}
-                <div class="bg-white rounded-md shadow-lg">
-                    <div class="">
-                        <img src="{{ asset('frontend/images/study-3.jpg') }}" alt="">
+                        {{-- single news section --}}
+                        <div class="flex space-x-5 mb-5">
+                            <div class="news-img">
+                                <img class=" h-32 w-auto" src="{{ asset('frontend/images/research-2.jpg') }}" alt="">
+                            </div>
+                            <div class="news-content">
+                                <h4 class="primary-color font-bold text-sm mb-2">
+                                    <a href="">Research that changes lives</a>
+                                </h4>
+                                <p class=" text-gray-400 text-sm font-normal mb-2">Our four flagship research institutes are taking an interdisciplinary approach to the biggest challenges facing the planet.</p>
+                                <a class="primary-color font-bold text-xs hover:underline" href="">Read More</a>
+                            </div>
+                        </div>
+
+                        {{-- single news section --}}
+                        <div class="flex space-x-5 mb-5">
+                            <div class="news-img">
+                                <img class=" h-32 w-auto" src="{{ asset('frontend/images/research-3.jpg') }}" alt="">
+                            </div>
+                            <div class="news-content">
+                                <h4 class="primary-color font-bold text-sm mb-2">
+                                    <a href="">Research that changes lives</a>
+                                </h4>
+                                <p class=" text-gray-400 text-sm font-normal mb-2">Our four flagship research institutes are taking an interdisciplinary approach to the biggest challenges facing the planet.</p>
+                                <a class="primary-color font-bold text-xs hover:underline" href="">Read More</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="p-5">
-                        <h4 class=" text-gray-900 font-black text-xl mb-2">
-                            <a href="">Explore undergraduate study at Sheffield</a>
-                        </h4>
-                        <p class=" text-gray-600 font-light text-base mb-2">Make Sheffield the start of something special. When you study here you get one of the best student experiences in the UK.</p>
-                        <a href="">
-                            <span class="primary-color font-bold">
-                                Undergraduate study
-                                <span class="ml-2">
-                                    <i class="fa-solid fa-arrow-right-long"></i>
-                                </span>
-                            </span>
-                        </a>
-                    </div>
+                    {{-- section content end --}}
                 </div>
+                {{-- freatured news section end --}}
             </div>
         </div>
     </div>
-    {{-- study section end --}}
+    {{-- freatured section end --}}
+
+    {{-- notice section start --}}
+    <div class="notice-section py-10">
+        <div class="container">
+            <div class="grid grid-cols-2 gap-10">
+                {{-- notice content start --}}
+                <div class="notice-content-section">
+                    {{-- section title --}}
+                    <div class="featured-section-title py-5">
+                        <h2 class="primary-color font-bold uppercase text-2xl relative">Notices</h2>
+                    </div>
+                    <div class="notice-content">
+                        {{-- single notice content --}}
+                        <div class="single-notice flex px-2 py-3 bg-white shadow-lg rounded-lg space-x-5 mb-2">
+                            <div class="notice-date bg-red-500 text-white text-center rounded-md">
+                                <span class=" text-sm font-semibold">27 Jun</span>
+                            </div>
+                            <div class="flex items-center">
+                                <a class=" text-base font-normal hover:underline" href="">SEAT PLAN OF MIDTERM EXAM SUMMER 2021-2022 DAY 3 (June 28, 2022, Tuesday)</a>
+                            </div>
+                        </div>
+
+                        {{-- single notice content --}}
+                        <div class="single-notice flex px-2 py-3 bg-white shadow-lg rounded-lg space-x-5 mb-2">
+                            <div class="notice-date primary-bg text-white text-center rounded-md">
+                                <span class=" text-sm font-semibold">26 Jun</span>
+                            </div>
+                            <div class="flex items-center">
+                                <a class=" text-base font-normal hover:underline" href="">Summer 2021-22 Mid Term Set B Exam Notice for the Courses Offered by Department of EEE, CoE and ...</a>
+                            </div>
+                        </div>
+
+                        {{-- single notice content --}}
+                        <div class="single-notice flex px-2 py-3 bg-white shadow-lg rounded-lg space-x-5 mb-2">
+                            <div class="notice-date bg-red-500 text-white text-center rounded-md">
+                                <span class=" text-sm font-semibold">25 Jun</span>
+                            </div>
+                            <div class="flex items-center">
+                                <a class=" text-base font-normal hover:underline" href="">Summer 2021-22 Mid Term Set B Exam Notice for CS Department</a>
+                            </div>
+                        </div>
+
+                        {{-- single notice content --}}
+                        <div class="single-notice flex px-2 py-3 bg-white shadow-lg rounded-lg space-x-5 mb-2">
+                            <div class="notice-date primary-bg text-white text-center rounded-md">
+                                <span class=" text-sm font-semibold">24 Jun</span>
+                            </div>
+                            <div class="flex items-center">
+                                <a class=" text-base font-normal hover:underline" href="">MEEE & MTEL Mid-Term Exam Schedules of Summer 2021-22
+                                </a>
+                            </div>
+                        </div>
+
+                        {{-- single notice content --}}
+                        <div class="single-notice flex px-2 py-3 bg-white shadow-lg rounded-lg space-x-5 mb-2">
+                            <div class="notice-date bg-red-500 text-white text-center rounded-md">
+                                <span class=" text-sm font-semibold">21 Jun</span>
+                            </div>
+                            <div class="flex items-center">
+                                <a class=" text-base font-normal hover:underline" href="">Fund Raising Campaign of AIUB Shomoy Club for Flood victims</a>
+                            </div>
+                        </div>
+
+                        {{-- single notice content --}}
+                        <div class="single-notice flex px-2 py-3 bg-white shadow-lg rounded-lg space-x-5 mb-2">
+                            <div class="notice-date bg-red-500 text-white text-center rounded-md">
+                                <span class=" text-sm font-semibold">20 Jun</span>
+                            </div>
+                            <div class="flex items-center">
+                                <a class=" text-base font-normal hover:underline" href="">SEAT PLAN OF MIDTERM EXAM SUMMER 2021-2022 DAY 3 (June 28, 2022, Tuesday)</a>
+                            </div>
+                        </div>
+
+                        {{-- single notice content --}}
+                        <div class="single-notice flex px-2 py-3 bg-white shadow-lg rounded-lg space-x-5 mb-2">
+                            <div class="notice-date primary-bg text-white text-center rounded-md">
+                                <span class=" text-sm font-semibold">19 Jun</span>
+                            </div>
+                            <div class="flex items-center">
+                                <a class=" text-base font-normal hover:underline" href="">Summer 2021-22 Mid Term Set B Exam Notice for the Courses Offered by Department of EEE, CoE and ...</a>
+                            </div>
+                        </div>
+
+                        {{-- single notice content --}}
+                        <div class="single-notice flex px-2 py-3 bg-white shadow-lg rounded-lg space-x-5 mb-2">
+                            <div class="notice-date bg-red-500 text-white text-center rounded-md">
+                                <span class=" text-sm font-semibold">18 Jun</span>
+                            </div>
+                            <div class="flex items-center">
+                                <a class=" text-base font-normal hover:underline" href="">Summer 2021-22 Mid Term Set B Exam Notice for CS Department</a>
+                            </div>
+                        </div>
+
+                        {{-- single notice content --}}
+                        <div class="single-notice flex px-2 py-3 bg-white shadow-lg rounded-lg space-x-5 mb-2">
+                            <div class="notice-date primary-bg text-white text-center rounded-md">
+                                <span class=" text-sm font-semibold">17 Jun</span>
+                            </div>
+                            <div class="flex items-center">
+                                <a class=" text-base font-normal hover:underline" href="">MEEE & MTEL Mid-Term Exam Schedules of Summer 2021-22
+                                </a>
+                            </div>
+                        </div>
+
+                        {{-- single notice content --}}
+                        <div class="single-notice flex px-2 py-3 bg-white shadow-lg rounded-lg space-x-5 mb-2">
+                            <div class="notice-date bg-red-500 text-white text-center rounded-md">
+                                <span class=" text-sm font-semibold">16 Jun</span>
+                            </div>
+                            <div class="flex items-center">
+                                <a class=" text-base font-normal hover:underline" href="">Fund Raising Campaign of AIUB Shomoy Club for Flood victims</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                {{-- notice content end --}}
+            </div>
+        </div>
+    </div>
+    {{-- notice section end --}}
 
     {{-- Research section start --}}
     <div class="research-section py-10">
@@ -223,103 +342,6 @@
         </div>
     </div>
     {{-- Research section end --}}
-
-    {{-- news section start --}}
-    <section class="news-section py-10">
-        <div class="container">
-            {{-- section title --}}
-            <div class="section-title py-5">
-                <h2 class="primary-color font-bold uppercase text-2xl relative">News</h2>
-            </div>
-
-            {{-- news content section start --}}
-            <div class="lg:grid lg:grid-cols-3 lg:gap-5 lg:space-y-0 space-y-10">
-                {{-- single content section --}}
-                <div class="col-span-3">
-                    <div class="lg:flex">
-                        <div class="lg:w-2/6 bg-blue-900 p-10 text-white">
-                            <span class=" bg-yellow-500 text-black font-bold text-base py-1 px-3 rounded-md">21 Jun 2022</span>
-                            <h4 class=" font-bold text-xl mb-2 mt-5">Sheffield scientists benefit from £4.25 million to kick start UK-wide research effort to end MND</h4>
-                            <p class=" text-base font-light mb-5">Researchers from the University of Sheffield’s Institute for Translational Neuroscience (SITraN) have been awarded part of a new £4.25 million grant that seeks to discover meaningful MND treatments within years, not decades.</p>
-                        </div>
-                        <div class="lg:w-2/3">
-                            <img class="w-full h-auto" src="{{ asset('frontend/images/news-top.jpg') }}" alt="">
-                        </div>
-                    </div>
-                </div>
-
-                {{-- single content section --}}
-                <div class="bg-white rounded-md shadow-lg">
-                    <div class="">
-                        <img src="{{ asset('frontend/images/research-1.jpg') }}" alt="">
-                    </div>
-                    <div class="p-5">
-                        <span class=" bg-yellow-500 text-black font-bold text-base py-1 px-3 rounded-md">21 Jun 2022</span>
-                        <h4 class=" text-gray-900 font-black text-xl mb-2 mt-2">
-                            <a href="">Research that changes lives</a>
-                        </h4>
-                        <p class=" text-gray-600 font-light text-base mb-2">Our four flagship research institutes are taking an interdisciplinary approach to the biggest challenges facing the planet.</p>
-                        <a href="">
-                            <span class="primary-color font-bold">
-                                Our flagship institutes
-                                <span class="ml-2">
-                                    <i class="fa-solid fa-arrow-right-long"></i>
-                                </span>
-                            </span>
-                        </a>
-                    </div>
-                </div>
-
-                {{-- single content section --}}
-                <div class="bg-white rounded-md shadow-lg">
-                    <div class="">
-                        <img src="{{ asset('frontend/images/research-2.jpg') }}" alt="">
-                    </div>
-                    <div class="p-5">
-                        <span class=" bg-yellow-500 text-black font-bold text-base py-1 px-3 rounded-md">21 Jun 2022</span>
-                        <h4 class=" text-gray-900 font-black text-xl mb-2 mt-2">
-                            <a href="">Our impact</a>
-                        </h4>
-                        <p class=" text-gray-600 font-light text-base mb-2">Our researchers are making life-changing discoveries and solving problems that have a global impact.</p>
-                        <a href="">
-                            <span class="primary-color font-bold">
-                                Our approach
-                                <span class="ml-2">
-                                    <i class="fa-solid fa-arrow-right-long"></i>
-                                </span>
-                            </span>
-                        </a>
-                    </div>
-                </div>
-
-                {{-- single content section --}}
-                <div class="bg-white rounded-md shadow-lg">
-                    <div class="">
-                        <img src="{{ asset('frontend/images/research-3.jpg') }}" alt="">
-                    </div>
-                    <div class="p-5">
-                        <span class=" bg-yellow-500 text-black font-bold text-base py-1 px-3 rounded-md">21 Jun 2022</span>
-                        <h4 class=" text-gray-900 font-black text-xl mb-2 mt-2">
-                            <a href="">Covid-19: our research and innovation</a>
-                        </h4>
-                        <p class=" text-gray-600 font-light text-base mb-2">Make Sheffield the start of something special. When you study here you get one of the best student experiences in the UK.</p>
-
-                        <a href="">
-                            <span class="primary-color font-bold">
-                                Explore our research and innovation
-                                <span class="ml-2">
-                                    <i class="fa-solid fa-arrow-right-long"></i>
-                                </span>
-                            </span>
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-            {{-- news content section end --}}
-        </div>
-    </section>
-    {{-- news section end --}}
 
     {{-- event section start --}}
     <section class="event-section py-10">
@@ -414,81 +436,6 @@
     </section>
     {{-- event section end --}}
 
-    {{-- collaborate section start --}}
-    <section class="collaborate-section py-10">
-        <div class="container">
-            {{-- section title --}}
-            <div class="section-title py-5">
-                <h2 class="primary-color font-bold uppercase text-2xl relative">COLLABORATE</h2>
-            </div>
-            {{-- section content --}}
-            <div class="lg:grid lg:grid-cols-3 lg:gap-5 lg:space-y-0 space-y-10">
-                {{-- single collaborate content --}}
-                <div class="bg-white rounded-md shadow-lg">
-                    <div class="">
-                        <img src="{{ asset('frontend/images/col-1.jpg') }}" alt="">
-                    </div>
-                    <div class="p-5">
-                        <h4 class=" text-gray-900 font-black text-xl mb-2">
-                            <a href="">Explore undergraduate study at Sheffield</a>
-                        </h4>
-                        <p class=" text-gray-600 font-light text-base mb-2">Make Sheffield the start of something special. When you study here you get one of the best student experiences in the UK.</p>
-                        <a href="">
-                            <span class="primary-color font-bold">
-                                Business and research
-                                <span class="ml-2">
-                                    <i class="fa-solid fa-arrow-right-long"></i>
-                                </span>
-                            </span>
-                        </a>
-                    </div>
-                </div>
-
-                {{-- single collaborate content --}}
-                <div class="bg-white rounded-md shadow-lg">
-                    <div class="">
-                        <img src="{{ asset('frontend/images/col-2.jpg') }}" alt="">
-                    </div>
-                    <div class="p-5">
-                        <h4 class=" text-gray-900 font-black text-xl mb-2">
-                            <a href="">Explore undergraduate study at Sheffield</a>
-                        </h4>
-                        <p class=" text-gray-600 font-light text-base mb-2">Make Sheffield the start of something special. When you study here you get one of the best student experiences in the UK.</p>
-                        <a href="">
-                            <span class="primary-color font-bold">
-                                International partnerships
-                                <span class="ml-2">
-                                    <i class="fa-solid fa-arrow-right-long"></i>
-                                </span>
-                            </span>
-                        </a>
-                    </div>
-                </div>
-
-                {{-- single collaborate content --}}
-                <div class="bg-white rounded-md shadow-lg">
-                    <div class="">
-                        <img src="{{ asset('frontend/images/col-3.jpg') }}" alt="">
-                    </div>
-                    <div class="p-5">
-                        <h4 class=" text-gray-900 font-black text-xl mb-2">
-                            <a href="">Explore undergraduate study at Sheffield</a>
-                        </h4>
-                        <p class=" text-gray-600 font-light text-base mb-2">Make Sheffield the start of something special. When you study here you get one of the best student experiences in the UK.</p>
-                        <a href="">
-                            <span class="primary-color font-bold">
-                                Our role in the city and region
-                                <span class="ml-2">
-                                    <i class="fa-solid fa-arrow-right-long"></i>
-                                </span>
-                            </span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    {{-- collaborate section end --}}
 
     {{-- quick link section start --}}
     <section class="quick-link-section pt-10">
@@ -648,82 +595,5 @@
         </div>
     </section>
     {{-- search section end --}}
-
-
-
-    {{-- Tab area start --}}
-    {{-- <div class="container mx-auto py-20 bg-white" x-data="{ selected: 'option-1' }">
-        <h2 class="flex justify-center primary-color font-bold text-3xl uppercase my-5">Research</h2>
-        <ul class="lg:flex lg:justify-center lg:space-x-12 space-y-5 lg:space-y-0 md:grid md:grid-cols-3 md:gap-2 md:space-y-0 text-white">
-            <li>
-                <button x-on:click="selected = 'option-1'"
-                class="inline-block px-4 py-3 btn-bg rounded uppercase hover:bg-blue-900 hover:text-yellow-300" x-bind:class="{ 'bg-blue-900 text-yellow-300': selected === 'option-1' }"
-                >
-                    Basic Microbiology
-                </button>
-            </li>
-            <li>
-                <button x-on:click="selected = 'option-2'"
-                class="inline-block px-4 py-3 btn-bg rounded uppercase hover:bg-blue-900 hover:text-yellow-300" x-bind:class="{ 'bg-blue-900 text-yellow-300': selected === 'option-2' }"
-                >
-                    Diagnostic Lab
-                </button>
-            </li>
-            <li>
-                <button x-on:click="selected = 'option-3'"
-                class="inline-block px-4 py-3 btn-bg rounded uppercase hover:bg-blue-900 hover:text-yellow-300" x-bind:class="{ 'bg-blue-900 text-yellow-300': selected === 'option-3' }"
-                >
-                    Virology Lab
-                </button>
-            </li>
-            <li>
-                <button x-on:click="selected = 'option-4'"
-                class="inline-block px-4 py-3 btn-bg rounded uppercase hover:bg-blue-900 hover:text-yellow-300" x-bind:class="{ 'bg-blue-900 text-yellow-300': selected === 'option-4' }"
-                >
-                    Mycology Lab
-                </button>
-            </li>
-            <li>
-                <button x-on:click="selected = 'option-5'"
-                class="inline-block px-4 py-3 btn-bg rounded uppercase hover:bg-blue-900 hover:text-yellow-300" x-bind:class="{ 'bg-blue-900 text-yellow-300': selected === 'option-5' }"
-                >
-                    AlGal Research Lab
-                </button>
-            </li>
-        </ul>
-        <div class="p-3 mt-6 bg-white border">
-            <div class="relative" x-show="selected === 'option-1'">
-                <img class="custom-h-600" src="{{ asset('frontend/images/tab-1.jpg') }}" alt="">
-                <div class="absolute bottom-0 left-0 right-0 bg-blue-900 bg-opacity-50 py-10">
-                    <h4 class=" text-3xl font-bold text-center text-white">Research of the Laboratory of Microbiology</h4>
-                </div>
-            </div>
-            <div class=" relative" x-show="selected === 'option-2'">
-                <img class="custom-h-600" src="{{ asset('frontend/images/tab-2.jpg') }}" alt="">
-                <div class="absolute bottom-0 left-0 right-0 bg-blue-900 bg-opacity-50 py-10">
-                    <h4 class=" text-3xl font-bold text-center text-white">Research of the Laboratory of Diagnostic</h4>
-                </div>
-            </div>
-            <div class=" relative" x-show="selected === 'option-3'">
-                <img class="custom-h-600" src="{{ asset('frontend/images/tab-3.jpg') }}" alt="">
-                <div class="absolute bottom-0 left-0 right-0 bg-blue-900 bg-opacity-50 py-10">
-                    <h4 class=" text-3xl font-bold text-center text-white">Research of the Laboratory of Virology</h4>
-                </div>
-            </div>
-            <div class=" relative" x-show="selected === 'option-4'">
-                <img class="custom-h-600" src="{{ asset('frontend/images/tab-4.jpg') }}" alt="">
-                <div class="absolute bottom-0 left-0 right-0 bg-blue-900 bg-opacity-50 py-10">
-                    <h4 class=" text-3xl font-bold text-center text-white">Research of the Laboratory of Mycology</h4>
-                </div>
-            </div>
-            <div class=" relative" x-show="selected === 'option-5'">
-                <img class="custom-h-600" src="{{ asset('frontend/images/tab-5.jpg') }}" alt="">
-                <div class="absolute bottom-0 left-0 right-0 bg-blue-900 bg-opacity-50 py-10">
-                    <h4 class=" text-3xl font-bold text-center text-white">Research of the Laboratory of AlGal</h4>
-                </div>
-            </div>
-        </div>
-    </div> --}}
-    {{-- Tab area end --}}
 
 @endsection

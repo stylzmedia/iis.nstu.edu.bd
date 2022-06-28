@@ -93,6 +93,23 @@ body{
     background-size: 100% 100%;
     height: 600px;
   }
+  /* freatured video and news section */
+  .news-content{
+      margin-top: 0 !important;
+  }
+  .freatured-news{
+    height: 315px;
+    overflow-y: scroll;
+  }
+  /* notice section */
+  .notice-content {
+    height: 423px;
+    overflow-y: scroll;
+  }
+  .notice-date {
+    width: 35px;
+    padding: 3px;
+   }
   /* Mega menu */
   .mega-menu {
     display: block;
