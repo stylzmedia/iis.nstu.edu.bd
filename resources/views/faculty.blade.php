@@ -2,7 +2,7 @@
 
 @section('content')
     <!-- Breadcrumb -->
-    <nav class=" bg-gray-700" aria-label="Breadcrumb">
+    <nav class="breadcumb bg-gray-700" aria-label="Breadcrumb">
         <div class="container">
             <div class="py-5 px-5">
                 <h2 class="text-white text-2xl font-semibold mb-5">Faculty</h2>

@@ -17,7 +17,7 @@
     <body class="">
         <div class="app">
             {{-- Header area start --}}
-            <header class="">
+            <header class="header">
                 <!-- Top Header Start -->
                 <div class="top-header bg-white py-2">
                     <div class="container">
@@ -253,11 +253,11 @@
             {{-- Footer area start --}}
             <footer>
                 <!-- Footer Top Area -->
-                <div class="footer-bg py-10">
+                <div class="footer footer-bg py-10">
                     <div class="container">
                         <div class="lg:flex space-y-10 lg:space-y-0">
                             <!-- single Footer -->
-                            <div class="lg:w-1/4 lg:pr-10 w-full">
+                            <div class="single-footer lg:w-1/4 lg:pr-10 w-full">
                                 <h4 class=" text-white text-lg font-medium uppercase mb-8">Useful Links</h4>
                                 <ul class="leading-loose">
                                     <li class="pb-3 border-b border-gray-500 border-dotted w-full">
@@ -276,7 +276,7 @@
                             </div>
 
                             <!-- single Footer -->
-                            <div class="lg:w-1/4 lg:pr-10 w-full">
+                            <div class="single-footer lg:w-1/4 lg:pr-10 w-full">
                                 <h4 class=" text-white text-lg font-medium uppercase mb-8">CENTER/CELL</h4>
                                 <ul class="leading-loose">
                                     <li class="pb-3 border-b border-gray-500 border-dotted w-full">
@@ -295,7 +295,7 @@
                             </div>
 
                             <!-- single Footer -->
-                            <div class="lg:w-1/4 lg:pr-10 w-full">
+                            <div class="single-footer lg:w-1/4 lg:pr-10 w-full">
                                 <h4 class=" text-white text-lg font-medium uppercase mb-8">FACILITIES</h4>
                                 <ul class="leading-loose">
                                     <li class="pb-3 border-b border-gray-500 border-dotted w-full">
@@ -314,7 +314,7 @@
                             </div>
 
                             <!-- single Footer -->
-                            <div class="lg:w-1/4 lg:pr-10 w-full">
+                            <div class="single-footer lg:w-1/4 lg:pr-10 w-full">
                                 <h4 class=" text-white text-lg font-medium uppercase mb-8">CONTACT & MAILING ADDRESS</h4>
                                 <ul class="leading-loose pt-3">
                                     <li class="pb-2 border-b border-gray-500 border-dotted w-full">
@@ -364,7 +364,7 @@
                 </div>
 
                 <!-- Bottom Footer Area -->
-                <div class="bottom-footer-bg py-6">
+                <div class="bottom-footer bottom-footer-bg py-6">
                     <div class="container">
                         <div class="md:flex md:justify-between space-y-5 md:space-y-0">
                             <p class=" text-xs text-gray-400">Copyright © 2022 | Noakhali Science and Technology University | All Rights Reserved</p>

@@ -2,12 +2,12 @@
 
 @section('content')
     {{-- Slider area start --}}
-    <div class="lg:flex pb-10 border-t border-gray-500">
+    <div class="slider-section lg:flex pb-10 border-t border-gray-500">
         <!-- welcome slider -->
         <div class="lg:w-full w-full">
             <div class="slider-area">
                 <!-- single slider -->
-                <div class="relative">
+                <div class="single-slider relative">
                     <div class="custom-slider">
                         <div class="slider-bg h-full" style="background-image: url('{{ asset('frontend/images/slider-1.jpg') }}');">
                             <div class="bg-overlay absolute bottom-0 md:w-2/5 w-full h-full top-0 left-0 bg-black bg-opacity-50 p-10"></div>
@@ -22,7 +22,7 @@
 
                 </div>
                 <!-- single slider -->
-                <div class="relative">
+                <div class="single-slider relative">
                     <div class="custom-slider">
                         <div class="slider-bg h-full" style="background-image: url('{{ asset('frontend/images/slider-2.jpg') }}');">
                             <div class="bg-overlay absolute bottom-0 md:w-2/5 w-full h-full top-0 left-0 bg-black bg-opacity-50 p-10"></div>
@@ -37,7 +37,7 @@
 
                 </div>
                 <!-- single slider -->
-                <div class="relative">
+                <div class="single-slider relative">
                     <div class="custom-slider">
                         <div class="slider-bg h-full" style="background-image: url('{{ asset('frontend/images/slider-3.jpg') }}');">
                             <div class="bg-overlay absolute bottom-0 md:w-2/5 w-full h-full top-0 left-0 bg-black bg-opacity-50 p-10"></div>
@@ -81,7 +81,7 @@
                     {{-- section content start --}}
                     <div class="freatured-news">
                         {{-- single news section --}}
-                        <div class="flex space-x-5 mb-5">
+                        <div class="single-news flex space-x-5 mb-5">
                             <div class="news-img">
                                 <img class=" h-32 w-auto" src="{{ asset('frontend/images/research-1.jpg') }}" alt="">
                             </div>
@@ -95,7 +95,7 @@
                         </div>
 
                         {{-- single news section --}}
-                        <div class="flex space-x-5 mb-5">
+                        <div class="single-news flex space-x-5 mb-5">
                             <div class="news-img">
                                 <img class=" h-32 w-auto" src="{{ asset('frontend/images/research-2.jpg') }}" alt="">
                             </div>
@@ -109,7 +109,7 @@
                         </div>
 
                         {{-- single news section --}}
-                        <div class="flex space-x-5 mb-5">
+                        <div class="single-news flex space-x-5 mb-5">
                             <div class="news-img">
                                 <img class=" h-32 w-auto" src="{{ asset('frontend/images/research-3.jpg') }}" alt="">
                             </div>
@@ -272,9 +272,9 @@
                 <h2 class="primary-color font-bold uppercase text-2xl relative">RESEARCH</h2>
             </div>
             {{-- research content section start --}}
-            <div class="lg:grid lg:grid-cols-3 lg:gap-5 lg:space-y-0 space-y-10">
+            <div class="research-content lg:grid lg:grid-cols-3 lg:gap-5 lg:space-y-0 space-y-10">
                 {{-- single content section --}}
-                <div class="col-span-3">
+                <div class="single-top-research col-span-3">
                     <div class="lg:flex">
                         <div class="lg:w-2/3">
                             <img class="w-full h-auto" src="{{ asset('frontend/images/research-top.jpg') }}" alt="">
@@ -288,7 +288,7 @@
                 </div>
 
                 {{-- single content section --}}
-                <div class="bg-white rounded-md shadow-lg">
+                <div class="single-research bg-white rounded-md shadow-lg">
                     <div class="">
                         <img src="{{ asset('frontend/images/research-1.jpg') }}" alt="">
                     </div>
@@ -309,7 +309,7 @@
                 </div>
 
                 {{-- single content section --}}
-                <div class="bg-white rounded-md shadow-lg">
+                <div class="single-research bg-white rounded-md shadow-lg">
                     <div class="">
                         <img src="{{ asset('frontend/images/research-2.jpg') }}" alt="">
                     </div>
@@ -330,7 +330,7 @@
                 </div>
 
                 {{-- single content section --}}
-                <div class="bg-white rounded-md shadow-lg">
+                <div class="single-research bg-white rounded-md shadow-lg">
                     <div class="">
                         <img src="{{ asset('frontend/images/research-3.jpg') }}" alt="">
                     </div>
@@ -367,7 +367,7 @@
             {{-- event content section start --}}
             <div class="lg:grid lg:grid-cols-3 lg:gap-5 lg:space-y-0 space-y-10">
                 {{-- single content section --}}
-                <div class="col-span-3">
+                <div class="single-top-event col-span-3">
                     <div class="lg:flex">
                         <div class="lg:w-2/3">
                             <img class="w-full h-auto" src="{{ asset('frontend/images/event-top.jpg') }}" alt="">
@@ -381,7 +381,7 @@
                 </div>
 
                 {{-- single content section --}}
-                <div class="bg-white rounded-md shadow-lg">
+                <div class="single-event bg-white rounded-md shadow-lg">
                     <div class="">
                         <img src="{{ asset('frontend/images/research-1.jpg') }}" alt="">
                     </div>
@@ -402,7 +402,7 @@
                 </div>
 
                 {{-- single content section --}}
-                <div class="bg-white rounded-md shadow-lg">
+                <div class="single-event bg-white rounded-md shadow-lg">
                     <div class="">
                         <img src="{{ asset('frontend/images/research-2.jpg') }}" alt="">
                     </div>
@@ -423,7 +423,7 @@
                 </div>
 
                 {{-- single content section --}}
-                <div class="bg-white rounded-md shadow-lg">
+                <div class="single-event bg-white rounded-md shadow-lg">
                     <div class="">
                         <img src="{{ asset('frontend/images/research-3.jpg') }}" alt="">
                     </div>
@@ -458,9 +458,9 @@
                 <h2 class="primary-color font-bold uppercase text-2xl relative">Quick Links</h2>
             </div>
             {{-- section content start --}}
-            <div class="lg:grid lg:grid-cols-2">
+            <div class="quick-link-content-section lg:grid lg:grid-cols-2">
                 {{-- single content --}}
-                <div class="lg:flex">
+                <div class="single-quick-link lg:flex">
                     {{-- link content --}}
                     <div class="bg-quick-link-1 link-content p-5 lg:w-1/2 text-white">
                         <h4 class=" text-3xl font-semibold mb-5">Future Students</h4>
@@ -486,7 +486,7 @@
                 </div>
 
                 {{-- single content --}}
-                <div class="lg:flex">
+                <div class="single-quick-link lg:flex">
                     {{-- link content --}}
                     <div class="bg-quick-link-2 link-content p-5 lg:w-1/2 text-white">
                         <h4 class=" text-3xl font-semibold mb-5">Current Students</h4>
@@ -512,7 +512,7 @@
                 </div>
 
                 {{-- single content --}}
-                <div class="lg:flex">
+                <div class="single-quick-link lg:flex">
                     {{-- image --}}
                     <div class="link-image lg:w-1/2">
                         <img src="{{ asset('frontend/images/quicklink-3.jpg') }}" alt="">
@@ -538,7 +538,7 @@
                 </div>
 
                 {{-- single content --}}
-                <div class="lg:flex">
+                <div class="single-quick-link lg:flex">
                     {{-- image --}}
                     <div class="link-image lg:w-1/2">
                         <img src="{{ asset('frontend/images/quicklink-4.jpg') }}" alt="">
