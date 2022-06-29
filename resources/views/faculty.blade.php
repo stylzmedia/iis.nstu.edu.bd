@@ -51,13 +51,13 @@
                     {{-- single faculty section --}}
                     <div class="single-faculty">
                         <div class="faculty-image border-b-8 border-b-blue-800">
-                            <a href="">
+                            <a href="{{ url('/single-faculty') }}">
                                 <img class="w-full h-auto" src="{{ asset('frontend/images/faculty-1.jpg') }}" alt="">
                             </a>
                         </div>
                         <div class="single-faculty-content py-5">
                             <h4 class="mb-3 primary-color font-semibold text-2xl">
-                                <a href="">Denise Anthony</a>
+                                <a href="{{ url('/single-faculty') }}">Denise Anthony</a>
                             </h4>
                             <p class=" text-gray-500 text-base font-light"> Information retrieval, aggregated search systems and evaluation, search behavior, text data mining, machine learning, task-based search, search assistance</p>
                         </div>
@@ -66,13 +66,13 @@
                     {{-- single faculty section --}}
                     <div class="single-faculty">
                         <div class="faculty-image border-b-8 border-b-blue-800">
-                            <a href="">
+                            <a href="{{ url('/single-faculty') }}">
                                 <img class="w-full h-auto" src="{{ asset('frontend/images/faculty-2.jpg') }}" alt="">
                             </a>
                         </div>
                         <div class="single-faculty-content py-5">
                             <h4 class="mb-3 primary-color font-semibold text-2xl">
-                                <a href="">Jaime Arguello</a>
+                                <a href="{{ url('/single-faculty') }}">Jaime Arguello</a>
                             </h4>
                             <p class=" text-gray-500 text-base font-light"> Information retrieval, aggregated search systems and evaluation, search behavior, text data mining, machine learning, task-based search, search assistance</p>
                         </div>
@@ -81,13 +81,13 @@
                     {{-- single faculty section --}}
                     <div class="single-faculty">
                         <div class="faculty-image border-b-8 border-b-blue-800">
-                            <a href="">
+                            <a href="{{ url('/single-faculty') }}">
                                 <img class="w-full h-auto" src="{{ asset('frontend/images/faculty-3.jpg') }}" alt="">
                             </a>
                         </div>
                         <div class="single-faculty-content py-5">
                             <h4 class="mb-3 primary-color font-semibold text-2xl">
-                                <a href="">Ron Bergquist</a>
+                                <a href="{{ url('/single-faculty') }}">Ron Bergquist</a>
                             </h4>
                             <p class=" text-gray-500 text-base font-light"> Information retrieval, aggregated search systems and evaluation, search behavior, text data mining, machine learning, task-based search, search assistance</p>
                         </div>
@@ -96,13 +96,13 @@
                     {{-- single faculty section --}}
                     <div class="single-faculty">
                         <div class="faculty-image border-b-8 border-b-blue-800">
-                            <a href="">
+                            <a href="{{ url('/single-faculty') }}">
                                 <img class="w-full h-auto" src="{{ asset('frontend/images/faculty-4.jpg') }}" alt="">
                             </a>
                         </div>
                         <div class="single-faculty-content py-5">
                             <h4 class="mb-3 primary-color font-semibold text-2xl">
-                                <a href="">Rob Capra</a>
+                                <a href="{{ url('/single-faculty') }}">Rob Capra</a>
                             </h4>
                             <p class=" text-gray-500 text-base font-light"> Information retrieval, aggregated search systems and evaluation, search behavior, text data mining, machine learning, task-based search, search assistance</p>
                         </div>
@@ -111,13 +111,13 @@
                     {{-- single faculty section --}}
                     <div class="single-faculty">
                         <div class="faculty-image border-b-8 border-b-blue-800">
-                            <a href="">
+                            <a href="{{ url('/single-faculty') }}">
                                 <img class="w-full h-auto" src="{{ asset('frontend/images/faculty-5.jpg') }}" alt="">
                             </a>
                         </div>
                         <div class="single-faculty-content py-5">
                             <h4 class="mb-3 primary-color font-semibold text-2xl">
-                                <a href="">Melanie Feinberg</a>
+                                <a href="{{ url('/single-faculty') }}">Melanie Feinberg</a>
                             </h4>
                             <p class=" text-gray-500 text-base font-light"> Information retrieval, aggregated search systems and evaluation, search behavior, text data mining, machine learning, task-based search, search assistance</p>
                         </div>
@@ -126,13 +126,13 @@
                     {{-- single faculty section --}}
                     <div class="single-faculty">
                         <div class="faculty-image border-b-8 border-b-blue-800">
-                            <a href="">
+                            <a href="{{ url('/single-faculty') }}">
                                 <img class="w-full h-auto" src="{{ asset('frontend/images/faculty-6.jpg') }}" alt="">
                             </a>
                         </div>
                         <div class="single-faculty-content py-5">
                             <h4 class="mb-3 primary-color font-semibold text-2xl">
-                                <a href="">David Gotz</a>
+                                <a href="{{ url('/single-faculty') }}">David Gotz</a>
                             </h4>
                             <p class=" text-gray-500 text-base font-light"> Information retrieval, aggregated search systems and evaluation, search behavior, text data mining, machine learning, task-based search, search assistance</p>
                         </div>
