@@ -24,3 +24,6 @@ Route::get('/people', function () {
 Route::get('/single-people', function () {
     return view('single-people');
 });
+Route::get('/single-faculty', function () {
+    return view('single-faculty');
+});
