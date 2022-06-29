@@ -60,7 +60,7 @@
                     <nav class="container">
                         <ul class="flex text-white">
                             <li>
-                                <a class="px-5 text-lg" href="/home">Home</a>
+                                <a class="px-5 text-lg" href="/">Home</a>
                             </li>
                             <li>
                                 <a class="px-5 text-lg" href="/about-us">About Us</a>

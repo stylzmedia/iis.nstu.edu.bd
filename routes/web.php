@@ -27,3 +27,6 @@ Route::get('/single-people', function () {
 Route::get('/single-faculty', function () {
     return view('single-faculty');
 });
+Route::get('/contact-us', function () {
+    return view('contact-us');
+});
