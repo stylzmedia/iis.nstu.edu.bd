@@ -1,0 +1,87 @@
+:root{
+    --primary-color:#326777;
+    --secondary-color:#0066b3;
+}
+
+/* header  */
+
+.bottom-header{
+    background: var(--primary-color);
+}
+.main-menu{
+    align-items: center!important;
+}
+.logo-main-institute img{
+    width: 3rem;
+}
+/* end header  */
+
+/* footer */
+.footer{
+    background-color: var(--primary-color);
+}
+.info-footer{
+    padding-top: 20px;
+}
+.apply-v-r{
+    color: #fff;
+    font-weight: 700px;
+    font-size: 18px;
+    /* padding: 10px; */
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    justify-content: space-between;
+
+}
+.apply-v-r div{
+
+    padding: 10px;
+
+}
+.apply-v-r div:nth-child(1){
+    padding-left:0px;
+}
+.apply-v-r div:nth-child(3){
+    padding-right:0px;
+}
+.footer-logo-divider{
+    width: 2px;
+    background: #fff;
+    margin: 0 10px;
+}
+.footer .contact_info{
+    color:#fff;
+    /* padding-left: 15px; */
+}
+.contact_info .flex div:first-child{
+    padding: 0 5px;
+}
+.contact_info h2{
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.social-media{
+    color:#fff;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+
+}
+.link-underline a{
+    text-decoration: underline;
+    color:#fff;
+}
+.footer-link-header-line{
+    height: 2px;
+    background: #fff;
+    width: 32%;
+    transform: skew(268deg);
+}
+.leading-loose{
+    color: #fff;
+
+
+}
+.bottom-footer-bg {
+    background-color: #4b4b4b;
+}
+/* end footer */

@@ -12,7 +12,8 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.min.css">
         <!-- Styles -->
         <link rel="stylesheet" type="text/css" href="{{ asset('frontend/js/slick/slick.css') }}"/>
-        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <link href="{{ asset('frontend/css/app.css') }}" rel="stylesheet">
+        <link href="{{ asset('frontend/css/custom.css') }}" rel="stylesheet">
     </head>
     <body class="">
         <div class="app">
@@ -25,14 +26,14 @@
                             <div class="flex">
                                 <div class="pr-5">
                                     <a href="/">
-                                        <img class="w-20" src="{{ asset('frontend/images/logo.gif') }}" alt="">
+                                        <img class="w-20" src="{{ asset('frontend/images/logo.iis.jpg') }}" alt="">
                                     </a>
                                 </div>
                                 <div class="mt-10 md:block hidden">
-                                    <h4 class=" text-xl primary-color font-bold">Noakhali Science and Technology University</h4>
-                                    <h2 class=" text-sm logo-red-color font-bold">Department of Information Sciences and Library Management</h2>
+                                    <h4 class=" text-xl primary-color font-bold uppercase">Institute Of Information Sciences</h4>
                                 </div>
                             </div>
+
                             <div class="lg:flex hidden items-center">
                                 <input class="border-2 border-solid border-gray-500 py-5 w-full h-10 focus:outline-none px-5 rounded-md mr-5" type="search" name="" id="" placeholder="Search">
                                 <ul class="flex justify-between">
@@ -56,9 +57,14 @@
                     </div>
                 </div>
                 <!-- Navbar Area -->
-                <div class="hidden lg:block bottom-header primary-bg py-4">
+                <div class="hidden lg:block bottom-header py-4">
                     <nav class="container">
-                        <ul class="flex text-white">
+                        <ul class="flex text-white main-menu">
+                            <li class="logo-main-institute">
+                                <a href="/">
+                                    <img class="w-20" src="{{ asset('frontend/images/logo.gif') }}" alt="">
+                                </a>
+                            </li>
                             <li>
                                 <a class="px-5 text-lg" href="/">Home</a>
                             </li>
@@ -253,115 +259,145 @@
             {{-- Footer area start --}}
             <footer>
                 <!-- Footer Top Area -->
-                <div class="footer footer-bg py-10">
+                <div class="footer py-10">
                     <div class="container">
+
                         <div class="lg:flex space-y-10 lg:space-y-0">
-                            <!-- single Footer -->
+
                             <div class="single-footer lg:w-1/4 lg:pr-10 w-full">
-                                <h4 class=" text-white text-lg font-medium uppercase mb-8">Useful Links</h4>
-                                <ul class="leading-loose">
-                                    <li class="pb-3 border-b border-gray-500 border-dotted w-full">
-                                        <a class=" text-sm text-gray-400" href="/">UGC</a>
+                                <h4 class=" text-white text-lg font-medium uppercase mb-2">Useful Links</h4>
+                                <div class="footer-link-header-line"></div>
+                                <ul class="leading-loose mt-6" style=" border-right: 1px solid;">
+                                    <li class="pb-3  w-full">
+                                        <a class=" text-sm" href="/">UGC</a>
                                     </li>
-                                    <li class="pb-3 border-b border-gray-500 border-dotted w-full">
-                                        <a class=" text-sm text-gray-400 pt-1" href="/">Ministry of Education</a>
+                                    <li class="pb-3  w-full">
+                                        <a class=" text-sm  pt-1" href="/">Ministry of Education</a>
                                     </li>
-                                    <li class="pb-3 border-b border-gray-500 border-dotted w-full">
-                                        <a class=" text-sm text-gray-400 pt-1" href="/">Office of Chancellor</a>
+                                    <li class="pb-3  w-full">
+                                        <a class=" text-sm  pt-1" href="/">Office of Chancellor</a>
                                     </li>
-                                    <li class="pb-3 border-b border-gray-500 border-dotted w-full">
-                                        <a class=" text-sm text-gray-400 pt-1" href="/">Office of Prime minister</a>
+                                    <li class="pb-3 w-full">
+                                        <a class=" text-sm  pt-1" href="/">Office of Prime minister</a>
                                     </li>
                                 </ul>
                             </div>
 
                             <!-- single Footer -->
                             <div class="single-footer lg:w-1/4 lg:pr-10 w-full">
-                                <h4 class=" text-white text-lg font-medium uppercase mb-8">CENTER/CELL</h4>
-                                <ul class="leading-loose">
-                                    <li class="pb-3 border-b border-gray-500 border-dotted w-full">
-                                        <a class=" text-sm text-gray-400" href="/">Research Cell</a>
+                                <h4 class=" text-white text-lg font-medium uppercase mb-2">CENTER/CELL</h4>
+                                <div class="footer-link-header-line"></div>
+                                <ul class="leading-loose mt-6" style=" border-right: 1px solid;">
+                                    <li class="pb-3  w-full">
+                                        <a class=" text-sm " href="/">Research Cell</a>
                                     </li>
-                                    <li class="pb-3 border-b border-gray-500 border-dotted w-full">
-                                        <a class=" text-sm text-gray-400 pt-1" href="/">Cyber Center</a>
+                                    <li class="pb-3  w-full">
+                                        <a class=" text-sm  pt-1" href="/">Cyber Center</a>
                                     </li>
-                                    <li class="pb-3 border-b border-gray-500 border-dotted w-full">
-                                        <a class=" text-sm text-gray-400 pt-1" href="/">IQAC</a>
+                                    <li class="pb-3  w-full">
+                                        <a class=" text-sm  pt-1" href="/">IQAC</a>
                                     </li>
-                                    <li class="pb-3 border-b border-gray-500 border-dotted w-full">
-                                        <a class=" text-sm text-gray-400 pt-1" href="/">ICT Cell</a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <!-- single Footer -->
-                            <div class="single-footer lg:w-1/4 lg:pr-10 w-full">
-                                <h4 class=" text-white text-lg font-medium uppercase mb-8">FACILITIES</h4>
-                                <ul class="leading-loose">
-                                    <li class="pb-3 border-b border-gray-500 border-dotted w-full">
-                                        <a class=" text-sm text-gray-400" href="/">Hall of Residence</a>
-                                    </li>
-                                    <li class="pb-3 border-b border-gray-500 border-dotted w-full">
-                                        <a class=" text-sm text-gray-400 pt-1" href="/">Medical Center</a>
-                                    </li>
-                                    <li class="pb-3 border-b border-gray-500 border-dotted w-full">
-                                        <a class=" text-sm text-gray-400 pt-1" href="/">Central Library</a>
-                                    </li>
-                                    <li class="pb-3 border-b border-gray-500 border-dotted w-full">
-                                        <a class=" text-sm text-gray-400 pt-1" href="/">Auditorium</a>
+                                    <li class="pb-3  w-full">
+                                        <a class=" text-sm  pt-1" href="/">ICT Cell</a>
                                     </li>
                                 </ul>
                             </div>
 
                             <!-- single Footer -->
                             <div class="single-footer lg:w-1/4 lg:pr-10 w-full">
-                                <h4 class=" text-white text-lg font-medium uppercase mb-8">CONTACT & MAILING ADDRESS</h4>
-                                <ul class="leading-loose pt-3">
-                                    <li class="pb-2 border-b border-gray-500 border-dotted w-full">
-                                        <p class="text-sm text-gray-400 flex">
-                                            <span class="mr-2 text-base">
-                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-                                                </svg>
-                                            </span>
-                                            Postal Code: 3814
-                                        </p>
+                                <h4 class=" text-white text-lg font-medium uppercase mb-2">FACILITIES
+
+                                </h4>
+                                <div class="footer-link-header-line"></div>
+
+                                <ul class="leading-loose mt-6">
+                                    <li class="pb-3  w-full">
+                                        <a class=" text-sm " href="/">Hall of Residence</a>
                                     </li>
-                                    <li class="pb-2 border-b border-gray-500 border-dotted w-full">
-                                        <p class="text-sm text-gray-400 py-2 flex">
-                                            <span class="mr-2 text-base">
-                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                                                </svg>
-                                            </span>
-                                            Phone: 02334496522
-                                        </p>
+                                    <li class="pb-3  w-full">
+                                        <a class=" text-sm  pt-1" href="/">Medical Center</a>
                                     </li>
-                                    <li class="pb-2 border-b border-gray-500 border-dotted w-full">
-                                        <p class="text-sm text-gray-400 py-1 flex">
-                                            <span class="mr-2 text-base">
-                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
-                                                </svg>
-                                            </span>
-                                            Email: registrar@office.nstu.edu.bd
-                                        </p>
+                                    <li class="pb-3  w-full">
+                                        <a class=" text-sm  pt-1" href="/">Central Library</a>
                                     </li>
-                                    <li class="pb-3 border-b border-gray-500 border-dotted w-full">
-                                        <a class="text-sm text-gray-400 py-1 flex" href="/">
-                                            <span class="mr-2 text-base flex">
-                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-                                                </svg>
-                                            </span>
-                                            NSTU Diary Web Version
-                                        </a>
+                                    <li class="pb-3  w-full">
+                                        <a class=" text-sm  pt-1" href="/">Auditorium</a>
                                     </li>
                                 </ul>
                             </div>
+
+                            <!-- single Footer -->
+                            <div class="single-footer lg:w-1/4  w-full">
+                                <div class="flex apply-v-r">
+                                    <div><a href="#">Apply</a> </div>
+                                    <div><a href="#">Visit</a></div>
+                                    <div><a href="#">Requestion Info</a></div>
+                                </div>
+                                <div style="padding: 25px 5px;">
+                                    <ul class="leading-loose link-underline">
+                                        <li class="pb-3   w-full">
+                                            <a class=" text-sm " href="/">Help</a>
+                                        </li>
+                                        <li class="pb-3   w-full">
+                                            <a class=" text-sm  pt-1" href="/">Privacy & Policy</a>
+                                        </li>
+                                        <li class="pb-3   w-full">
+                                            <a class=" text-sm  pt-1" href="/">Terms & Condition</a>
+                                        </li>
+                                        <li class="pb-3  w-full">
+                                            <a class=" text-sm  pt-1" href="/">Auditorium</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex info-footer">
+                            <div class="footer-logo" style="width:15%;">
+                                <div class="flex" style="flex-direction: column;align-items: center;">
+                                    <a href="/">
+                                        <img class="w-20" src="{{ asset('frontend/images/logo.iis.jpg') }}" alt="">
+                                    </a>
+                                    <div class="flex social-media">
+                                        <a href="#" class="pl-0"><i class="fa-brands fa-facebook"></i></a>
+                                        <a href="#" class="pl-2"><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="#" class="pl-2"><i class="fa-brands fa-linkedin"></i></a>
+                                        <a href="#" class="pl-2"><i class="fa-brands fa-whatsapp"></i></a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="footer-logo-divider"  ></div>
+                            <div class="flex" style="justify-content: space-between;width:80%">
+                                <div class="contact_info">
+                                    <h2>Further enquries</h2>
+                                    <div class="flex">
+                                        <div><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                                        <div>
+                                            <p>NoaKhali Science and Technology University Sonapur</p>
+                                            <p>University Rd, NoaKhali-3814</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex">
+                                        <div><i class="fa fa-phone" aria-hidden="true"></i></div>
+                                        <div>+880 1534 982 674</div>
+                                    </div>
+                                    <div class="flex">
+                                        <div><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                                        <div>info@iis.nstu.edu.bd</div>
+                                    </div>
+                                </div>
+                                <div class="footer-m-logo">
+                                    <a href="/">
+                                        <img class="w-20" src="{{ asset('frontend/images/logo.gif') }}" alt="">
+
+                                    </a>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
+
 
                 <!-- Bottom Footer Area -->
                 <div class="bottom-footer bottom-footer-bg py-6">

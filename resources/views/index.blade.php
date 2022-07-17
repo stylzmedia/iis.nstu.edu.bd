@@ -13,7 +13,7 @@
                             <div class="bg-overlay absolute bottom-0 md:w-2/5 w-full h-full top-0 left-0 bg-black bg-opacity-50 p-10"></div>
                             <div class="slider-content">
                                 <div class="slider-text z-10 relative pt-10 md:w-1/3">
-                                    <h4 class=" md:text-3xl text-xl font-bold text-white border-b border-gray-200 pb-2 mb-5">Department of Information Sciences and Library Management</h4>
+                                    <h4 class=" md:text-3xl text-xl font-bold text-white border-b border-gray-200 pb-2 mb-5">Institute Of Information Sciences</h4>
                                     <p class="text-white text-lg">Our Faculty tech a wide portfolio microbiology courses at the undergraduate and graduate levels.</p>
                                 </div>
                             </div>
@@ -28,7 +28,7 @@
                             <div class="bg-overlay absolute bottom-0 md:w-2/5 w-full h-full top-0 left-0 bg-black bg-opacity-50 p-10"></div>
                             <div class="slider-content">
                                 <div class="slider-text z-10 relative pt-10 md:w-1/3">
-                                    <h4 class=" md:text-3xl text-xl font-bold text-white border-b border-gray-200 pb-2 mb-5">Department of Information Sciences and Library Management</h4>
+                                    <h4 class=" md:text-3xl text-xl font-bold text-white border-b border-gray-200 pb-2 mb-5">Institute Of Information Sciences</h4>
                                     <p class="text-white text-lg">Our Faculty tech a wide portfolio microbiology courses at the undergraduate and graduate levels.</p>
                                 </div>
                             </div>
@@ -43,7 +43,7 @@
                             <div class="bg-overlay absolute bottom-0 md:w-2/5 w-full h-full top-0 left-0 bg-black bg-opacity-50 p-10"></div>
                             <div class="slider-content">
                                 <div class="slider-text z-10 relative pt-10 md:w-1/3">
-                                    <h4 class=" md:text-3xl text-xl font-bold text-white border-b border-gray-200 pb-2 mb-5">Department of Information Sciences and Library Management</h4>
+                                    <h4 class=" md:text-3xl text-xl font-bold text-white border-b border-gray-200 pb-2 mb-5">Institute Of Information Sciences</h4>
                                     <p class="text-white text-lg">Our Faculty tech a wide portfolio microbiology courses at the undergraduate and graduate levels.</p>
                                 </div>
                             </div>
@@ -570,10 +570,10 @@
     {{-- quick link section end --}}
 
     {{-- search section start --}}
-    <section class="search-section pb-10">
+    <section class="search-section pb-10" style="background-image: url('{{ asset('frontend/images/search-bg.jpg') }}')">
         <div class="container">
             {{-- search content start --}}
-            <div class="search-bg py-20" style="background-image: url('{{ asset('frontend/images/search-bg.jpg') }}')">
+            <div class="search-bg py-20" >
                 <div class="lg:px-20 md:px-10 px-2 text-white">
                     <div>
                         <h4 class=" font-bold text-lg uppercase pb-10">NEED HELP FINDING SOMETHING?</h4>
