@@ -20,7 +20,7 @@
             {{-- Header area start --}}
             <header class="header">
                 <!-- Top Header Start -->
-                <div class="top-header bg-white py-2">
+                <div class="top-header bg-white py-3">
                     <div class="container">
                         <div class="flex justify-between">
                             <div class="flex">
@@ -33,18 +33,22 @@
                                     <h4 class=" text-xl primary-color font-bold uppercase">Institute Of Information Sciences</h4>
                                 </div>
                             </div>
-
-                            <div class="lg:flex hidden items-center">
-                                <input class="border-2 border-solid border-gray-500 py-5 w-full h-10 focus:outline-none px-5 rounded-md mr-5" type="search" name="" id="" placeholder="Search">
-                                <ul class="flex justify-between">
-                                    <li>
-                                        <a class=" text-sm primary-color font-bold border-r-2 border-blue-900 pr-4" href="/">Login</a>
-                                    </li>
-                                    <li>
-                                        <a class=" text-sm primary-color font-bold pl-4" href="/">Help</a>
-                                    </li>
-                                </ul>
+                            <div class="flex top-header-bar">
+                                <div class="bar-item"><a href="#">Login</a></div>
+                                <div class="bar-item"><a href="#">Help</a></div>
+                                <div class="bar-item top-search-box">
+                                    <div>
+                                    <button>
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                    </div>
+                                    <div class="search-input">
+                                        <input type="text" placeholder="Search" class="search_box_input">
+                                        <button type="submit">Search</button>
+                                    </div>
+                                </div>
                             </div>
+
                             <div class="lg:hidden text-right">
                                 <button class="navbar-burger flex items-center text-black p-3">
                                     <svg class="block h-6 w-6 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -373,8 +377,8 @@
                                     <div class="flex">
                                         <div><i class="fa fa-map-marker" aria-hidden="true"></i></div>
                                         <div>
-                                            <p>NoaKhali Science and Technology University Sonapur</p>
-                                            <p>University Rd, NoaKhali-3814</p>
+                                            <p>Institute Of Information Sciences</p>
+                                            <p>NoaKhali-3814</p>
                                         </div>
                                     </div>
                                     <div class="flex">
@@ -403,7 +407,7 @@
                 <div class="bottom-footer bottom-footer-bg py-6">
                     <div class="container">
                         <div class="md:flex md:justify-between space-y-5 md:space-y-0">
-                            <p class=" text-xs text-gray-400">Copyright © 2022 | Noakhali Science and Technology University | All Rights Reserved</p>
+                            <p class=" text-xs text-gray-400">Copyright © 2022 | Institute Of Information Sciences | All Rights Reserved</p>
                             <ul class="flex md:justify-between">
                                 <li>
                                     <a class=" text-xs text-gray-400 font-bold border-r-2 border-gray-400 pr-4" href="/">Mission & Vision</a>
@@ -477,7 +481,21 @@
 
         <script>
             $(document).ready(function() {
+                // search button toogle
+                $('.top-search-box').click(function(e){
+                    //console.log(e);
+                    if( $(e.target).closest(".search-input").length > 0 ) {
+                        return false;
+                    }
+                    if($($('.top-search-box .search-input')[0]).css('display') == 'none'){
+                        $('.top-search-box').addClass('active');
+                        $('.top-search-box .search-input').css('display','block');
+                    }else{
+                        $('.top-search-box .search-input').css('display','none');
+                        $('.top-search-box').removeClass('active');
+                    }
 
+                });
                 $('#calendar').fullCalendar({
                 locale: 'bd',
                 header: {

@@ -2,7 +2,7 @@
 
 @section('content')
     {{-- Slider area start --}}
-    <div class="slider-section lg:flex pb-10 border-t border-gray-500">
+    <div class="slider-section lg:flex pb-0 border-t border-gray-500">
         <!-- welcome slider -->
         <div class="lg:w-full w-full">
             <div class="slider-area">
@@ -57,7 +57,7 @@
     {{-- Slider area end --}}
 
     {{-- freatured section start --}}
-    <div class="freatured-section py-10">
+    <div class="freatured-section py-10" style="background:#e9e9e9">
         <div class="container">
             <div class="lg:grid lg:grid-cols-2 lg:gap-10 lg:space-y-0 space-y-5">
                 {{-- vedio freatured section start --}}
@@ -131,7 +131,7 @@
     {{-- freatured section end --}}
 
     {{-- notice section start --}}
-    <div class="notice-section py-10">
+    <div class="notice-section py-10" style="background: #b2b7b0eb;">
         <div class="container">
             <div class="lg:grid lg:grid-cols-2 lg:gap-10 lg:space-y-0 space-y-5">
                 {{-- notice content start --}}
@@ -265,7 +265,7 @@
     {{-- notice section end --}}
 
     {{-- Research section start --}}
-    <div class="research-section py-10">
+    <div class="research-section py-10" style="background: #538240fc;">
         <div class="container">
             {{-- section title --}}
             <div class="section-title py-5">
@@ -357,7 +357,7 @@
     {{-- Research section end --}}
 
     {{-- event section start --}}
-    <section class="event-section py-10">
+    <section class="event-section py-10" style="background: #c9ddc1eb;">
         <div class="container">
             {{-- section title --}}
             <div class="section-title py-5">
@@ -451,7 +451,7 @@
 
 
     {{-- quick link section start --}}
-    <section class="quick-link-section pt-10">
+    <section class="quick-link-section pt-10 pb-5" style="background: #fff;">
         <div class="container">
             {{-- section title --}}
             <div class="section-title py-5">
